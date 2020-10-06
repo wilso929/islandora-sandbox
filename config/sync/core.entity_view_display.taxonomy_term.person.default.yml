@@ -67,7 +67,7 @@ content:
     label: above
     settings:
       format: default
-      markup: false
+      markup: ''
       output: default
       multiple: default
       multiple_delimiter: ', '
@@ -83,7 +83,7 @@ content:
     label: above
     settings:
       format: default
-      markup: false
+      markup: ''
       output: default
       multiple: default
       multiple_delimiter: ', '
