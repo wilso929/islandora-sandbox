@@ -18,7 +18,7 @@ disabled: false
 conditions:
   node_has_term:
     id: node_has_term
-    negate: 0
+    negate: false
     context_mapping:
       node: '@node.node_route_context:node'
     uri: 'http://purl.org/dc/dcmitype/Collection'
@@ -40,6 +40,22 @@ reactions:
         css_class: ''
         unique: 0
         context_id: collection
+      d7f0425f-2b03-4ff3-8bfa-8f9e082ed7a1:
+        id: 'views_block:sandbox_members_image_gallery-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        custom_id: views_block_sandbox_members_image_gallery_block_1
+        theme: solid
+        css_class: ''
+        unique: 0
+        context_id: collection
+        uuid: d7f0425f-2b03-4ff3-8bfa-8f9e082ed7a1
     id: blocks
     saved: false
     include_default_blocks: 1

@@ -16,7 +16,7 @@ bundle: fits_technical_metadata
 label: OIS_File_Information_Md5checksum
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

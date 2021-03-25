@@ -200,7 +200,7 @@ display:
           error_message: true
           plugin_id: taxonomy_index_tid
       sorts: {  }
-      title: 'Sandbox Members Image Gallery'
+      title: 'Items in this collection'
       header: {  }
       footer: {  }
       empty: {  }
@@ -260,7 +260,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_image'
-        - extensions
   block_1:
     display_plugin: block
     id: block_1
@@ -278,4 +277,3 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_image'
-        - extensions

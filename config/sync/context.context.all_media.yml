@@ -17,9 +17,9 @@ conditions:
     id: islandora_entity_bundle
     bundles:
       audio: audio
-      document: document
       extracted_text: extracted_text
       file: file
+      fits_technical_metadata: fits_technical_metadata
       image: image
       video: video
     negate: 0
