@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.media.field_media_of
     - media.type.file
+    - node.type.islandora_object
   enforced:
     module:
       - islandora_core_feature
@@ -22,5 +23,11 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:node'
-  handler_settings: {  }
+  handler_settings:
+    target_bundles:
+      islandora_object: islandora_object
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

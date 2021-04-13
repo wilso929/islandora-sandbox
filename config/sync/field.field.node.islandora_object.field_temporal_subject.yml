@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_temporal_subject
     - node.type.islandora_object
+    - taxonomy.vocabulary.subject
 id: node.islandora_object.field_temporal_subject
 field_name: field_temporal_subject
 entity_type: node
@@ -19,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      temporal: temporal
+      subject: subject
     sort:
       field: name
       direction: asc
