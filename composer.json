@@ -1,5 +1,5 @@
 {
-    "name": "danny/profile_test",
+    "name": "islandora/profile_test",
     "type": "project",
     "repositories" : [
         {
@@ -70,28 +70,7 @@
         "sort-packages": true,
         "discard-changes": true
     },
-    "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ]
-    },
     "scripts": {
-        "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "post-install-cmd": [
-            "@composer drupal:scaffold",
-            "@create-symlinks",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "@composer drupal:scaffold",
-            "@create-symlinks",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
         "create-symlinks": [
             "mkdir -p web/sites/all/assets/vendor && ln -sf /var/www/drupal/web/libraries/openseadragon web/sites/all/assets/vendor/",
             "mkdir -p web/sites/default/files/library-definitions",
@@ -99,6 +78,11 @@
         ]
     },
     "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2",
@@ -140,9 +124,6 @@
             "web/modules/custom/{$name}": [
                 "type:drupal-module-custom"
             ],
-            "web/modules/bd/{$name}": [
-                "type:drupal-module-bd"
-            ],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
@@ -154,9 +135,6 @@
             ],
             "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
-            ],
-            "web/profiles/{$name}": [
-                "type:drupal-profile-custom"
             ]
         }
     }
