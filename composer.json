@@ -75,7 +75,11 @@
             "mkdir -p web/sites/all/assets/vendor && ln -sf /var/www/drupal/web/libraries/openseadragon web/sites/all/assets/vendor/",
             "mkdir -p web/sites/default/files/library-definitions",
             "cp web/modules/contrib/openseadragon/openseadragon.json web/sites/default/files/library-definitions"
-        ]
+        ],
+	"create-sync-directories": [
+            "mkdir -p config/sync",
+	    "mkdir -p content/sync"
+	]
     },
     "extra": {
         "drupal-scaffold": {
