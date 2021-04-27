@@ -71,6 +71,24 @@
         "discard-changes": true
     },
     "scripts": {
+	"pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "@composer drupal:scaffold",
+            "@create-symlinks",
+	    "@create-sync-directories",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "@composer drupal:scaffold",
+            "@create-symlinks",
+	    "@create-sync-directories",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
         "create-symlinks": [
             "mkdir -p web/sites/all/assets/vendor && ln -sf /var/www/drupal/web/libraries/openseadragon web/sites/all/assets/vendor/",
             "mkdir -p web/sites/default/files/library-definitions",
