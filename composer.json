@@ -46,6 +46,18 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library/masonry",
+                "version": "3.3.2",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/desandro/masonry/archive/v3.3.2.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "authors": [
