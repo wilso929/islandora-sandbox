@@ -108,7 +108,9 @@
         ],
 	"create-sync-directories": [
             "mkdir -p config/sync",
-	    "mkdir -p content/sync"
+	    "mkdir -p content/sync",
+	    "chown g+w content/sync",
+	    "chown g+w config/sync"
 	]
     },
     "extra": {
