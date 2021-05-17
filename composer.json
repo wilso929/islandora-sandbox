@@ -107,10 +107,8 @@
             "cp web/modules/contrib/openseadragon/openseadragon.json web/sites/default/files/library-definitions"
         ],
 	"create-sync-directories": [
-            "mkdir -p config/sync",
-	    "mkdir -p content/sync",
-	    "chown g+w content/sync",
-	    "chown g+w config/sync"
+        "mkdir -p config/sync",
+	    "mkdir -p content/sync"
 	]
     },
     "extra": {
