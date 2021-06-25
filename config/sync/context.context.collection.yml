@@ -40,6 +40,7 @@ reactions:
         css_class: ''
         unique: 0
         context_id: collection
+        custom_id: views_block_members_block_1
       d7f0425f-2b03-4ff3-8bfa-8f9e082ed7a1:
         id: 'views_block:sandbox_members_image_gallery-block_1'
         label: ''

@@ -18,8 +18,8 @@ backend_config:
   connector_config:
     scheme: http
     host: solr
-    port: '8983'
-    path: /solr
+    port: 8983
+    path: /
     core: ISLANDORA
     timeout: 5
     index_timeout: 10
@@ -29,9 +29,13 @@ backend_config:
     solr_version: ''
     http_method: AUTO
     jmx: false
+    skip_schema_check: false
   retrieve_data: false
   highlight_data: false
-  skip_schema_check: false
   server_prefix: ''
   domain: generic
   site_hash: true
+  optimize: false
+  environment: default
+  index_single_documents_fallback_count: 10
+  fallback_multiple: true

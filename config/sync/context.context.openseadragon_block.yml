@@ -36,6 +36,7 @@ reactions:
         unique: 0
         context_id: openseadragon_block
         uuid: 4fe759c9-e1bf-4709-871c-7b8a407c840b
+        custom_id: openseadragon_block
       16401a13-1031-4ffe-96b2-5909df309f6a:
         id: openseadragon_block
         label: 'Openseadragon block'
@@ -50,6 +51,7 @@ reactions:
         unique: 0
         context_id: openseadragon_block
         uuid: 16401a13-1031-4ffe-96b2-5909df309f6a
+        custom_id: openseadragon_block
       39bb8c5e-51e9-47d2-8eb9-0393142d124f:
         id: openseadragon_block
         label: 'Openseadragon block'
