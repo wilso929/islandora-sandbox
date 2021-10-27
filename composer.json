@@ -67,7 +67,7 @@
         }
     ],
     "require": {
-        "islandora/islandora_install_profile_demo": "dev-main"
+        "islandora/islandora_install_profile_demo": "dev-install-profile"
     },
     "require-dev": {
         "drupal/core-dev": "^8.9",
