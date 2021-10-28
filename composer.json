@@ -1,7 +1,38 @@
 {
     "name": "islandora/islandora-sandbox",
     "type": "project",
+    "description": "Islandora project to deploy with demo install profile.",
     "repositories" : [
+        {
+            "type": "path",
+            "url": "../islandora_install_profile_demo"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Islandora-Devops/islandora_starter_theme",
+                "version": "dev-main",
+                "type": "drupal-theme",
+                "source": {
+                    "url": "https://github.com/Islandora-Devops/islandora_starter_theme.git",
+                    "type": "git",
+                    "reference": "composer-fix"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "islandora/islandora_install_profile_demo",
+                "version": "dev-install-profile",
+                "type": "drupal-profile",
+                "source": {
+                    "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
+                    "type": "git",
+                    "reference": "install-profile"
+                }
+            }
+        },
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -67,10 +98,13 @@
         }
     ],
     "require": {
+        "composer/installers": "^1.9",
+        "drupal/core-composer-scaffold": "^9.2",
+        "drupal/core-project-message": "^9.2",
+        "drupal/core-recommended": "^9.2",
         "islandora/islandora_install_profile_demo": "dev-install-profile"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.9",
         "drupal/twig_xdebug": "^1.2"
     },
     "conflict": {
@@ -79,37 +113,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
-        "discard-changes": true
-    },
-    "scripts": {
-	"pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "post-install-cmd": [
-            "@composer drupal:scaffold",
-            "@create-symlinks",
-	    "@create-sync-directories",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "@composer drupal:scaffold",
-            "@create-symlinks",
-	    "@create-sync-directories",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "create-symlinks": [
-            "mkdir -p web/sites/all/assets/vendor && ln -sf /var/www/drupal/web/libraries/openseadragon web/sites/all/assets/vendor/",
-            "mkdir -p web/sites/default/files/library-definitions",
-            "cp web/modules/contrib/openseadragon/openseadragon.json web/sites/default/files/library-definitions"
-        ],
-	"create-sync-directories": [
-        "mkdir -p config/sync",
-	    "mkdir -p content/sync"
-	]
+        "sort-packages": true
     },
     "extra": {
         "drupal-scaffold": {
@@ -117,46 +121,15 @@
                 "web-root": "web/"
             }
         },
-        "composer-exit-on-patch-failure": true,
-        "patchLevel": {
-            "drupal/core": "-p2",
-            "islandora/islandora": "-p2",
-            "islandora/islandora_defaults": "-p2"
-        },
-        "patches": {
-            "drupal/term_reference_tree": {
-                "Fixes toURL on null error": "https://www.drupal.org/files/issues/2019-07-30/term_reference_tree-3071428-2.patch"
-            },
-            "drupal/features" : {
-                "Prevent WSOD when loading an invalid feature": "./assets/patches/tasks_24551412_-_fixed_features_wsod.patch"
-            },
-            "drupal/core" : {
-                "Fix the issue where COLOR settings are seemingly reverted with deploys": "https://www.drupal.org/files/issues/2021-02-28/2995825-52.patch"
-            }
-        },
-        "merge-plugin": {
-            "recurse": true,
-            "merge-dev": true,
-            "include": [
-                "web/modules/contrib/masonry/composer.libraries.json",
-                "web/modules/contrib/select2/select2.libraries.json"
-            ]
-        },
-        "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library",
-                "type:bower-asset",
-                "type:npm-asset"
+                "type:drupal-library"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
-            ],
-            "web/modules/custom/{$name}": [
-                "type:drupal-module-custom"
             ],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
@@ -164,11 +137,38 @@
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "web/themes/custom/{$name}": [
-                "type:drupal-theme-custom"
-            ],
             "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
             ]
         }
     }
