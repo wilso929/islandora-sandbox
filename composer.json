@@ -4,10 +4,6 @@
     "description": "Islandora project to deploy with demo install profile.",
     "repositories" : [
         {
-            "type": "path",
-            "url": "../islandora_install_profile_demo"
-        },
-        {
             "type": "package",
             "package": {
                 "name": "Islandora-Devops/islandora_starter_theme",
