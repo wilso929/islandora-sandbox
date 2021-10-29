@@ -17,17 +17,8 @@
             }
         },
         {
-            "type": "package",
-            "package": {
-                "name": "islandora/islandora_install_profile_demo",
-                "version": "dev-install-profile",
-                "type": "drupal-profile",
-                "source": {
-                    "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                    "type": "git",
-                    "reference": "install-profile"
-                }
-            }
+            "type": "git",
+            "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git"
         },
         {
             "type": "composer",

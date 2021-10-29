@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fad43aba1cb933b9cf227385cfd659d",
+    "content-hash": "8c51b760bd231cd74cfee9fb7a5dee57",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5425,7 +5425,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_library.git",
-                "reference": "bf8afc2d8e2ff8da2b57a4a8cc0930f96d83ef19"
+                "reference": "ca82e2604e697a6f4b9eb73a530f03e822b4bcbd"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -5436,8 +5436,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta2+2-dev",
-                    "datestamp": "1610746297",
+                    "version": "8.x-1.0-beta2+4-dev",
+                    "datestamp": "1635452936",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8445,10 +8445,10 @@
         {
             "name": "islandora/islandora_install_profile_demo",
             "version": "dev-install-profile",
-            "dist": {
-                "type": "path",
-                "url": "../islandora_install_profile_demo",
-                "reference": "12a0b1e4fbd1ed8df0efa869d139904879b910f2"
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
+                "reference": "14be5321d63976e58161e9f817cd6ef16496800a"
             },
             "require": {
                 "composer/installers": "^1.9",
@@ -8546,9 +8546,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2021-10-28T20:14:04+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
@@ -13564,16 +13562,16 @@
         },
         {
             "name": "symfony/security",
-            "version": "v4.4.31",
+            "version": "v4.4.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security.git",
-                "reference": "cd68e804f00818a0ac1302372423d1be8590804f"
+                "reference": "5c463ddfa5768e7326452d0ed180b078e81168e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security/zipball/cd68e804f00818a0ac1302372423d1be8590804f",
-                "reference": "cd68e804f00818a0ac1302372423d1be8590804f",
+                "url": "https://api.github.com/repos/symfony/security/zipball/5c463ddfa5768e7326452d0ed180b078e81168e0",
+                "reference": "5c463ddfa5768e7326452d0ed180b078e81168e0",
                 "shasum": ""
             },
             "require": {
@@ -13644,7 +13642,7 @@
             "description": "Provides a complete security system for your web application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/security/tree/v4.4.31"
+                "source": "https://github.com/symfony/security/tree/v4.4.33"
             },
             "funding": [
                 {
@@ -13660,7 +13658,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-20T16:52:24+00:00"
+            "time": "2021-10-23T07:49:03+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -13836,16 +13834,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.3.7",
+            "version": "v5.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "8d224396e28d30f81969f083a58763b8b9ceb0a5"
+                "reference": "d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/8d224396e28d30f81969f083a58763b8b9ceb0a5",
-                "reference": "8d224396e28d30f81969f083a58763b8b9ceb0a5",
+                "url": "https://api.github.com/repos/symfony/string/zipball/d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c",
+                "reference": "d70c35bb20bbca71fc4ab7921e3c6bda1a82a60c",
                 "shasum": ""
             },
             "require": {
@@ -13899,7 +13897,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.3.7"
+                "source": "https://github.com/symfony/string/tree/v5.3.10"
             },
             "funding": [
                 {
@@ -13915,7 +13913,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-26T08:00:08+00:00"
+            "time": "2021-10-27T18:21:46+00:00"
         },
         {
             "name": "symfony/translation",
