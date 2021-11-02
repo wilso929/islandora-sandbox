@@ -89,7 +89,7 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
-        "islandora/islandora_install_profile_demo": "dev-install-profile"
+        "islandora/islandora_install_profile_demo": "dev-drupal-9-patch"
     },
     "require-dev": {
         "drupal/twig_xdebug": "^1.2"
