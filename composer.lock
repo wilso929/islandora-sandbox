@@ -2056,6 +2056,55 @@
             "time": "2021-10-11T02:15:41+00:00"
         },
         {
+            "name": "drupal/collapse_text",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/collapse_text.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/collapse_text-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "d80a497c3b77d60609732139c75ea22509f47fda"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1635373584",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DYdave",
+                    "homepage": "https://www.drupal.org/user/467284"
+                },
+                {
+                    "name": "mukila",
+                    "homepage": "https://www.drupal.org/user/3223526"
+                }
+            ],
+            "description": "Insert collapsible text in content.",
+            "homepage": "https://www.drupal.org/project/collapse_text",
+            "support": {
+                "source": "https://git.drupalcode.org/project/collapse_text",
+                "issues": "https://www.drupal.org/project/issues/collapse_text"
+            }
+        },
+        {
             "name": "drupal/condition_query",
             "version": "1.3.0",
             "source": {
@@ -8182,7 +8231,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "86f79400c5db7b25f475162c2e702ef680e68c5b"
+                "reference": "ae70ad16ffd31edd0463ba408f18f8abf1309302"
             },
             "require": {
                 "asm89/stack-cors": "^1.3",
@@ -8196,6 +8245,7 @@
                 "drupal/backup_migrate": "^5",
                 "drupal/block_class": "^1.3",
                 "drupal/bootstrap_barrio": "5.x-dev",
+                "drupal/collapse_text": "^2",
                 "drupal/condition_query": "^1.2",
                 "drupal/conditional_fields": "1.x-dev",
                 "drupal/config_distro_filter": "1.0-alpha4",
@@ -8282,7 +8332,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2021-11-02T21:17:16+00:00"
+            "time": "2021-11-02T21:26:00+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
