@@ -7797,16 +7797,16 @@
         },
         {
             "name": "islandora-rdm/islandora_fits",
-            "version": "dev-master",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roblib/islandora_fits.git",
-                "reference": "b9d041590fd31cc2e4a5d2675e8956ada9101e97"
+                "reference": "586427738cd9e2724d1ee3aeff8b42d114b518a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roblib/islandora_fits/zipball/b9d041590fd31cc2e4a5d2675e8956ada9101e97",
-                "reference": "b9d041590fd31cc2e4a5d2675e8956ada9101e97",
+                "url": "https://api.github.com/repos/roblib/islandora_fits/zipball/586427738cd9e2724d1ee3aeff8b42d114b518a6",
+                "reference": "586427738cd9e2724d1ee3aeff8b42d114b518a6",
                 "shasum": ""
             },
             "require": {
@@ -7822,7 +7822,7 @@
             "keywords": [
                 "drupal"
             ],
-            "time": "2021-01-14T17:09:48+00:00"
+            "time": "2021-01-14T23:01:15+00:00"
         },
         {
             "name": "islandora/chullo",
@@ -8130,7 +8130,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "b6b19078a47278e39ae24cc61fe82ee49ec94081"
+                "reference": "f16f4155617269d822878e6ce4bfdf2fb5920191"
             },
             "require": {
                 "asm89/stack-cors": "^1.3",
@@ -8195,7 +8195,7 @@
                 "drupal/views_field_view": "^1.0@beta",
                 "drupal/views_flipped_table": "^1.3",
                 "drush/drush": "^10",
-                "islandora-rdm/islandora_fits": "dev-master || 9999999-dev || dev-8.x-1.x",
+                "islandora-rdm/islandora_fits": "dev-8.x-1.x",
                 "islandora/islandora": "^2.0",
                 "islandora/islandora_base_theme": "dev-main",
                 "islandora/islandora_defaults": "^2.0",
@@ -8229,7 +8229,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2021-11-02T20:23:17+00:00"
+            "time": "2021-11-02T21:07:39+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
