@@ -6673,6 +6673,58 @@
             "time": "2021-08-14T15:40:31+00:00"
         },
         {
+            "name": "drupal/term_condition",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/term_condition.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/term_condition-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "ae28cb55e8ee01dcef86e287fc86645ee44b0ade"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1606865672",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "DanielVeza",
+                    "homepage": "https://www.drupal.org/user/3362504"
+                },
+                {
+                    "name": "jazzslider",
+                    "homepage": "https://www.drupal.org/user/430722"
+                }
+            ],
+            "description": "Provides a Condition plugin which checks to see if a node references a particular taxonomy term.",
+            "homepage": "https://www.drupal.org/project/term_condition",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/term_condition",
+                "issues": "http://drupal.org/project/issues/term_condition"
+            }
+        },
+        {
             "name": "drupal/title_field_for_manage_display",
             "version": "2.0.0",
             "source": {
@@ -8130,7 +8182,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "f16f4155617269d822878e6ce4bfdf2fb5920191"
+                "reference": "86f79400c5db7b25f475162c2e702ef680e68c5b"
             },
             "require": {
                 "asm89/stack-cors": "^1.3",
@@ -8188,6 +8240,7 @@
                 "drupal/search_api_solr": "4.1.10 || 4.x-dev",
                 "drupal/simple_sitemap": "3.x-dev",
                 "drupal/svg_image_field": "2.0.x-dev",
+                "drupal/term_condition": "^2",
                 "drupal/title_field_for_manage_display": "^2.0",
                 "drupal/transliterate_filenames": "^1.3",
                 "drupal/twig_tweak": "^2.9",
@@ -8229,7 +8282,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2021-11-02T21:07:39+00:00"
+            "time": "2021-11-02T21:17:16+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
