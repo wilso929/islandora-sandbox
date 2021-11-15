@@ -14,6 +14,30 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "library/pdf.js",
+              "version": "2.10.377",
+              "type": "drupal-library",
+              "dist": {
+                "url": "https://github.com/mozilla/pdf.js/releases/download/v2.10.377/pdfjs-2.10.377-dist.zip",
+                "type": "zip"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "library/masonry",
+              "version": "3.3.2",
+              "type": "drupal-library",
+              "dist": {
+                "url": "https://github.com/desandro/masonry/archive/v3.3.2.zip",
+                "type": "zip"
+              }
+            }
         }
     ],
     "require": {
@@ -48,9 +72,8 @@
         "webflo/drupal-finder": "^1.2",
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.2",
-        "library/openseadragon": "^2.4",
-        "library/pdf.js": "^2.4",
-	    "library/masonry": "^3.3"
+        "library/pdf.js": "2.10.377",
+	    "library/masonry": "3.3.2"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
