@@ -108,7 +108,7 @@
         "drupal/replaywebpage": "1.0.x-dev@dev",
         "drupal/citation_select": "1.0.x-dev@dev",
         "islandora/jsonld": "2.1.0",
-        "islandora_lite/islandora_defaults": "main"
+        "islandora_lite/islandora_defaults": "dev-main"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
