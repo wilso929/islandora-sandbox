@@ -43,11 +43,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/islandora_defaults",
-              "version": "main",
+              "version": "dev-main",
               "type": "drupal-module",
               "dist": {
                 "url": "https://github.com/digitalutsc/islandora_content_type.git",
-                "type": "vcs"
+                "type": "git",
+                "reference":"main"
               }
             }
         }
