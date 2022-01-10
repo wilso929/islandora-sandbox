@@ -45,7 +45,7 @@
               "name": "islandora_lite/islandora_defaults",
               "version": "dev-main",
               "type": "drupal-module",
-              "dist": {
+              "source": {
                 "url": "https://github.com/digitalutsc/islandora_content_type.git",
                 "type": "git",
                 "reference":"main"
