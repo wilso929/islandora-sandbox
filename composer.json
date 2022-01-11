@@ -82,12 +82,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/ableplayer",
-              "version": "dev-tony/additional-fixes'",
+              "version": "dev-islandra-lite'",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/ableplayer",
                 "type": "git",
-                "reference":"tony/additional-fixes'"
+                "reference":"islandra-lite"
               }
             }
         }
@@ -151,7 +151,7 @@
         "islandora_lite/islandora_defaults": "dev-main",
         "islandora_lite/islandora_display": "dev-main",
         "islandora/advanced_search": "dev-dsu",
-        "islandora_lite/ableplayer": "dev-tony/additional-fixes"
+        "islandora_lite/ableplayer": "dev-islandra-lite"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
