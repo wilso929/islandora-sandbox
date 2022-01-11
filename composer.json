@@ -51,6 +51,45 @@
                 "reference":"main"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/islandora_display",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/islandora_display.git",
+                "type": "git",
+                "reference":"main"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora/advanced_search",
+              "version": "dev-dsu",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/advanced_search",
+                "type": "git",
+                "reference":"dsu"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/ableplayer",
+              "version": "dev-tony/additional-fixes'",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/ableplayer",
+                "type": "git",
+                "reference":"tony/additional-fixes'"
+              }
+            }
         }
     ],
     "require": {
@@ -109,7 +148,10 @@
         "drupal/replaywebpage": "1.0.x-dev@dev",
         "drupal/citation_select": "1.0.x-dev@dev",
         "islandora/jsonld": "2.1.0",
-        "islandora_lite/islandora_defaults": "dev-main"
+        "islandora_lite/islandora_defaults": "dev-main",
+        "islandora_lite/islandora_display": "dev-main",
+        "islandora/advanced_search": "dev-dsu",
+        "islandora_lite/ableplayer": "dev-tony/additional-fixes"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
