@@ -90,6 +90,19 @@
                 "reference":"islandra-lite"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/iiif_view_manifest",
+              "version": "dev-drupal_view",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/iiif_view_manifest",
+                "type": "git",
+                "reference":"drupal_view"
+              }
+            }
         }
     ],
     "require": {
@@ -151,7 +164,8 @@
         "islandora_lite/islandora_defaults": "dev-main",
         "islandora_lite/islandora_display": "dev-main",
         "islandora/advanced_search": "dev-dsu",
-        "islandora_lite/ableplayer": "dev-islandra-lite"
+        "islandora_lite/ableplayer": "dev-islandra-lite",
+        "islandora_lite/iiif_view_manifest": "dev-drupal_view",
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
