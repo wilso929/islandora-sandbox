@@ -165,7 +165,7 @@
         "islandora_lite/islandora_display": "dev-main",
         "islandora/advanced_search": "dev-dsu",
         "islandora_lite/ableplayer": "dev-islandra-lite",
-        "islandora_lite/iiif_view_manifest": "dev-drupal_view",
+        "islandora_lite/iiif_view_manifest": "dev-drupal_view"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
