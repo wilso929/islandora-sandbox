@@ -176,8 +176,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-	"discard-changes": true,
-        "sort-packages": true
+	      "discard-changes": true,
+        "sort-packages": true,
+        "allow-plugins": {
+          "composer/installers": true,
+          "drupal/core-composer-scaffold": true,
+          "drupal/core-project-message": true,
+          "cweagans/composer-patches": true,
+          "zaporylie/composer-drupal-optimizations": true
+        }        
     },
     "autoload": {
         "classmap": [
@@ -221,12 +228,5 @@
         },
         "patches": {
         }
-    },
-    "allow-plugins": {
-      "composer/installers": true,
-      "drupal/core-composer-scaffold": true,
-      "drupal/core-project-message": true,
-      "cweagans/composer-patches": true,
-      "zaporylie/composer-drupal-optimizations": true
     }
 }
