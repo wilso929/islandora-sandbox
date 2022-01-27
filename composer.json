@@ -131,7 +131,7 @@
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.2",
         "library/pdf.js": "2.10.377",
-	    "library/masonry": "3.3.2",
+	      "library/masonry": "3.3.2",
         "drupal/field_group": "^3.1",
         "drupal/field_permissions": "^1.1",
         "easyrdf/easyrdf": "^1.1",
@@ -165,7 +165,7 @@
         "islandora_lite/islandora_display": "dev-main",
         "islandora/advanced_search": "dev-dsu",
         "islandora_lite/ableplayer": "dev-islandra-lite",
-        "islandora_lite/iiif_view_manifest": "dev-drupal_view",
+        "islandora_lite/iiif_view_manifest": "dev-drupal_view"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
@@ -221,5 +221,11 @@
         },
         "patches": {
         }
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "cweagans/composer-patches": true,
+      "drupal/core-composer-scaffold": true,
+      "zaporylie/composer-drupal-optimizations": true
     }
 }
