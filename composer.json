@@ -180,7 +180,8 @@
         "islandora_lite/ableplayer": "dev-islandra-lite",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/media_thumbnails_tiff": "dev-master",
-        "wikimedia/composer-merge-plugin": "^2.0"
+        "wikimedia/composer-merge-plugin": "^2.0",
+	"drupal/advancedqueue_runner": "^1.1@alpha"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
