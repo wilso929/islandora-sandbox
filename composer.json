@@ -195,10 +195,10 @@
         "islandora_lite/media_thumbnails_tiff": "dev-master",
         "wikimedia/composer-merge-plugin": "^2.0",
 	    "drupal/advancedqueue_runner": "^1.1@alpha",
-        "drupal/archive_list_contents": "1.0.x-dev@dev",
+        "drupal/archive_list_contents": "1.x-dev@dev",
         "drupal/csvfile_formatter": "1.0.x-dev@dev",
         "drupal/fico": "^3.0",
-        "islandora_lite/fico_taxonomy_condition": "dev-main"
+        "islandora_lite/fico_taxonomy_condition": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
