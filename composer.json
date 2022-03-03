@@ -121,12 +121,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/fico_taxonomy_condition",
-              "version": "dev-master",
+              "version": "dev-main",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/fico_taxonomy_condition",
                 "type": "git",
-                "reference":"master"
+                "reference":"main"
               }
             }
         }
@@ -198,7 +198,7 @@
         "drupal/archive_list_contents": "1.x-dev@dev",
         "drupal/csvfile_formatter": "1.0.x-dev@dev",
         "drupal/fico": "^3.0",
-        "islandora_lite/fico_taxonomy_condition": "dev-master"
+        "islandora_lite/fico_taxonomy_condition": "dev-main"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
