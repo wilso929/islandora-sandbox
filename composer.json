@@ -129,6 +129,19 @@
                 "reference":"main"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "library/ajax-solr",
+              "version": "dev-master",
+              "type": "drupal-library",
+              "source": {
+                "url": "https://github.com/evolvingweb/ajax-solr.git",
+                "type": "git",
+                "reference":"master"
+              }
+            }
         }
     ],
     "require": {
@@ -157,6 +170,7 @@
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.2",
         "library/pdf.js": "2.10.377",
+        "library/ajax-solr": "dev-master",
 	    "library/masonry": "3.3.2",
         "drupal/field_group": "^3.1",
         "drupal/field_permissions": "^1.1",
@@ -198,7 +212,11 @@
         "drupal/archive_list_contents": "1.x-dev@dev",
         "drupal/csvfile_formatter": "1.0.x-dev@dev",
         "drupal/fico": "^3.0",
-        "islandora_lite/fico_taxonomy_condition": "dev-main"
+        "islandora_lite/fico_taxonomy_condition": "dev-main",
+        "digitalutsc/group_solr" : "dev-main",
+        "digitalutsc/ajax_solr_search" : "1.0.x-dev",
+        "digitalutsc/islandora_group_defaults" : "dev-main",
+        "digitalutsc/islandora_group" : "1.2.x-dev"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
