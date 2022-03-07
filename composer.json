@@ -234,7 +234,8 @@
           "drupal/core-composer-scaffold": true,
           "drupal/core-project-message": true,
           "cweagans/composer-patches": true,
-          "zaporylie/composer-drupal-optimizations": true
+          "zaporylie/composer-drupal-optimizations": true,
+          "wikimedia/composer-merge-plugin": true
         }        
     },
     "autoload": {
