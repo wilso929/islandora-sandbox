@@ -42,7 +42,7 @@
         {
             "type": "package",
             "package": {
-              "name": "islandora_lite/islandora_content_type",
+              "name": "islandora_lite/islandora_defaults",
               "version": "dev-main",
               "type": "drupal-module",
               "source": {
