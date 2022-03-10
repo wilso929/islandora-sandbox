@@ -133,6 +133,19 @@
         {
             "type": "package",
             "package": {
+              "name": "islandora_lite/views_nested_details",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/Natkeeran/views_nested_details",
+                "type": "git",
+                "reference":"main"
+              }
+            }
+        },        
+        {
+            "type": "package",
+            "package": {
               "name": "library/ajax-solr",
               "version": "dev-master",
               "type": "drupal-library",
@@ -218,6 +231,7 @@
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/media_thumbnails_tiff": "dev-master",
         "islandora_lite/fico_taxonomy_condition": "dev-main",
+        "islandora_lite/views_nested_details": "dev-main",  
         "digitalutsc/group_solr" : "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
         "digitalutsc/islandora_group_defaults" : "dev-main",
@@ -233,8 +247,8 @@
     "prefer-stable": true,
     "config": {
 	      "discard-changes": true,
-        "sort-packages": true,
-        "allow-plugins": {
+          "sort-packages": true,
+          "allow-plugins": {
           "composer/installers": true,
           "drupal/core-composer-scaffold": true,
           "drupal/core-project-message": true,
