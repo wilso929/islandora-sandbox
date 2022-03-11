@@ -235,7 +235,8 @@
         "digitalutsc/group_solr" : "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
         "digitalutsc/islandora_group_defaults" : "dev-main",
-        "digitalutsc/islandora_group" : "1.2.x-dev"
+        "digitalutsc/islandora_group" : "1.2.x-dev",
+        "drupal/views_field_view": "^1.0@beta"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
