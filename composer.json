@@ -155,7 +155,20 @@
                 "reference":"master"
               }
             }
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/islandora_mirador",
+              "version": "dev-drupal_mirador",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/islandora_mirador.git",
+                "type": "git",
+                "reference":"drupal_mirador"
+              }
+            }
+        }        
     ],
     "require": {
         "composer/installers": "^1.9",
@@ -236,7 +249,8 @@
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
         "digitalutsc/islandora_group_defaults" : "dev-main",
         "digitalutsc/islandora_group" : "1.2.x-dev",
-        "drupal/views_field_view": "^1.0@beta"
+        "drupal/views_field_view": "^1.0@beta",
+        "islandora_lite/islandora_mirador": "dev-drupal_mirador"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
