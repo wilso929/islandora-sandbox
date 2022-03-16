@@ -168,7 +168,20 @@
                 "reference":"drupal_mirador"
               }
             }
-        }        
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/islandora_lite_solr_search",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/islandora_lite_solr_search.git",
+                "type": "git",
+                "reference":"main"
+              }
+            }
+        }          
     ],
     "require": {
         "composer/installers": "^1.9",
@@ -250,7 +263,9 @@
         "digitalutsc/islandora_group_defaults" : "dev-main",
         "digitalutsc/islandora_group" : "1.2.x-dev",
         "drupal/views_field_view": "^1.0@beta",
-        "islandora_lite/islandora_mirador": "dev-drupal_mirador"
+        "islandora_lite/islandora_mirador": "dev-drupal_mirador",
+        "islandora_lite/islandora_lite_solr_search": "dev-main",
+        "mjordan/islandora_workbench_integration": "dev-main"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
