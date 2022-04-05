@@ -261,6 +261,7 @@
         "islandora_lite/fico_taxonomy_condition": "dev-main",
         "islandora_lite/views_nested_details": "dev-main",  
         "digitalutsc/group_solr" : "dev-main",
+        "digitalutsc/private_files_adapter": "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
         "digitalutsc/islandora_group_defaults" : "dev-main",
         "digitalutsc/islandora_group" : "1.2.x-dev",
