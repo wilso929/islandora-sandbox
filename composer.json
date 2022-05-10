@@ -159,6 +159,32 @@
         {
             "type": "package",
             "package": {
+              "name": "library/jquery-ui-touch-punch",
+              "version": "dev-master",
+              "type": "drupal-library",
+              "source": {
+                "url": "https://github.com/furf/jquery-ui-touch-punch.git",
+                "type": "git",
+                "reference":"master"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "library/jquery-ui-slider-pips",
+              "version": "dev-master",
+              "type": "drupal-library",
+              "source": {
+                "url": "https://github.com/simeydotme/jQuery-ui-Slider-Pips.git",
+                "type": "git",
+                "reference":"master"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
               "name": "islandora_lite/islandora_mirador",
               "version": "dev-drupal_mirador",
               "type": "drupal-module",
@@ -268,7 +294,9 @@
         "drupal/views_field_view": "^1.0@beta",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
         "islandora_lite/islandora_lite_solr_search": "dev-main",
-        "mjordan/islandora_workbench_integration": "dev-main"
+        "mjordan/islandora_workbench_integration": "dev-main",
+        "drupal/jquery_ui_slider": "^1.1",
+        "drupal/jquery_ui_touch_punch": "^1.0"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
