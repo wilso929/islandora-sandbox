@@ -323,6 +323,7 @@
         "islandora_lite/facets_year_range": "dev-main",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
         "drupal/fontawesome":"^2.23",
+        "drupal/better_social_sharing_buttons": "^3.2",
         "mjordan/islandora_workbench_integration": "dev-main",
         "drupal/jquery_ui_slider": "^1.1",
         "drupal/jquery_ui_touch_punch": "^1.0"
