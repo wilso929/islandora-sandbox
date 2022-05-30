@@ -208,7 +208,7 @@
               }
             }
         },
-         {
+        {
             "type": "package",
             "package": {
               "name": "islandora_lite/facets_year_range",
@@ -216,6 +216,19 @@
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/facets_year_range.git",
+                "type": "git",
+                "reference":"main"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/islandora_breadcrumbs",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/islandora_breadcrumbs.git",
                 "type": "git",
                 "reference":"main"
               }
@@ -308,6 +321,7 @@
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
         "islandora_lite/islandora_lite_solr_search": "dev-main",
         "islandora_lite/facets_year_range": "dev-main",
+        "islandora_lite/islandora_breadcrumbs": "dev-main",
         "mjordan/islandora_workbench_integration": "dev-main",
         "drupal/jquery_ui_slider": "^1.1",
         "drupal/jquery_ui_touch_punch": "^1.0"
