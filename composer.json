@@ -322,6 +322,7 @@
         "islandora_lite/islandora_lite_solr_search": "dev-main",
         "islandora_lite/facets_year_range": "dev-main",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
+        "drupal/fontawesome":"^2.23",
         "mjordan/islandora_workbench_integration": "dev-main",
         "drupal/jquery_ui_slider": "^1.1",
         "drupal/jquery_ui_touch_punch": "^1.0"
