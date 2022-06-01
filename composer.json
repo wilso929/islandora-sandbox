@@ -142,7 +142,7 @@
                 "reference":"main"
               }
             }
-        },        
+        },
         {
             "type": "package",
             "package": {
@@ -291,27 +291,28 @@
         "drupal/migrate_plus" : "^5.1",
         "drupal/migrate_tools" : "^5.0",
         "drupal/migrate_source_csv" : "^3.4",
-        "drupal/media_library_edit" : "^2.2",    
-        "drupal/fico": "^3.0",     
-        "drupal/term_condition": "^2.0",  
-        "drupal/filemime": "^1.9", 
+        "drupal/media_library_edit" : "^2.2",
+        "drupal/fico": "^3.0",
+        "drupal/term_condition": "^2.0",
+        "drupal/filemime": "^1.9",
+        "drupal/views_flipped_table": "^1.4",
         "wikimedia/composer-merge-plugin": "^2.0",
-	    "drupal/advancedqueue_runner": "^1.1@alpha",
+	      "drupal/advancedqueue_runner": "^1.1@alpha",
         "drupal/replaywebpage": "1.0.x-dev@dev",
         "drupal/citation_select": "1.0.x-dev@dev",
         "drupal/archive_list_contents": "1.x-dev@dev",
         "drupal/csvfile_formatter": "1.0.x-dev@dev",
         "islandora/jsonld": "2.1.0",
-        "islandora/openseadragon": "^2.0",        
+        "islandora/openseadragon": "^2.0",
         "islandora/controlled_access_terms": "^2",
-        "islandora/advanced_search": "dev-contrib",        
+        "islandora/advanced_search": "dev-contrib",
         "islandora_lite/islandora_defaults": "dev-main",
         "islandora_lite/islandora_display": "dev-main",
         "islandora_lite/ableplayer": "dev-islandra-lite",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/media_thumbnails_tiff": "dev-master",
         "islandora_lite/fico_taxonomy_condition": "dev-main",
-        "islandora_lite/views_nested_details": "dev-main",  
+        "islandora_lite/views_nested_details": "dev-main",
         "digitalutsc/group_solr" : "dev-main",
         "digitalutsc/private_files_adapter": "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
@@ -347,7 +348,7 @@
           "zaporylie/composer-drupal-optimizations": true,
           "wikimedia/composer-merge-plugin": true,
           "dealerdirect/phpcodesniffer-composer-installer": true
-        }        
+        }
     },
     "autoload": {
         "classmap": [
