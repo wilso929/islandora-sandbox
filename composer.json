@@ -69,12 +69,12 @@
             "type": "package",
             "package": {
               "name": "islandora/advanced_search",
-              "version": "dev-contrib",
+              "version": "dev-dsu_utsc",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/advanced_search",
                 "type": "git",
-                "reference":"contrib"
+                "reference":"dsu_utsc"
               }
             }
         },
