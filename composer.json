@@ -159,6 +159,18 @@
         {
             "type": "package",
             "package": {
+              "name": "library/timeline3",
+              "version": "latest",
+              "type": "drupal-library",
+              "dist": {
+                "url": "https://cdn.knightlab.com/libs/timeline3/latest/timeline3.zip",
+                "type": "zip"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
               "name": "library/jquery-ui-touch-punch",
               "version": "dev-master",
               "type": "drupal-library",
@@ -330,6 +342,7 @@
         "digitalutsc/group_solr" : "dev-main",
         "digitalutsc/private_files_adapter": "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
+        "drupal/views_timelinejs": "^4.0@beta",
         "digitalutsc/islandora_group_defaults" : "dev-main",
         "digitalutsc/islandora_group" : "1.2.x-dev",
         "drupal/views_field_view": "^1.0@beta",
