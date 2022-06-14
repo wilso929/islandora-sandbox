@@ -160,10 +160,10 @@
             "type": "package",
             "package": {
               "name": "library/timeline3",
-              "version": "latest",
+              "version": "3.8.18",
               "type": "drupal-library",
               "dist": {
-                "url": "https://cdn.knightlab.com/libs/timeline3/latest/timeline3.zip",
+                "url": "https://cdn.knightlab.com/libs/timeline3/3.8.18/timeline3.zip",
                 "type": "zip"
               }
             }
