@@ -287,6 +287,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.2",
         "library/pdf.js": "2.10.377",
         "library/ajax-solr": "dev-master",
+        "library/timeline3": "3.8.18",
 	    "library/masonry": "3.3.2",
         "drupal/field_group": "^3.1",
         "drupal/field_permissions": "^1.1",
