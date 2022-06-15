@@ -163,7 +163,7 @@
               "version": "3.8.18",
               "type": "drupal-library",
               "dist": {
-                "url": "https://cdn.knightlab.com/libs/timeline3/3.8.18/timeline3.zip",
+                "url": "https://github.com/digitalutsc/islandora_lite_installation/raw/main/libs/timeline3.zip",
                 "type": "zip"
               }
             }
