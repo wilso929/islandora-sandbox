@@ -356,6 +356,7 @@
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/structure_sync": "^2.0",
         "drupal/asset_injector": "^2.10",
+        "filter_perms":"^1.0@alpha",
         "drupal/better_social_sharing_buttons": "^3.2",
         "mjordan/islandora_workbench_integration": "dev-main",
         "drupal/jquery_ui_slider": "^1.1",
