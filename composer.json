@@ -120,6 +120,19 @@
         {
             "type": "package",
             "package": {
+              "name": "islandora_lite/media_thumbnails_jp2",
+              "version": "dev-master",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/media_thumbnails_jp2",
+                "type": "git",
+                "reference":"master"
+              }
+            }
+        },                
+        {
+            "type": "package",
+            "package": {
               "name": "islandora_lite/fico_taxonomy_condition",
               "version": "dev-main",
               "type": "drupal-module",
@@ -337,6 +350,7 @@
         "islandora_lite/ableplayer": "dev-islandra-lite",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/media_thumbnails_tiff": "dev-master",
+        "islandora_lite/media_thumbnails_jp2": "dev-master",
         "islandora_lite/fico_taxonomy_condition": "dev-main",
         "islandora_lite/views_nested_details": "dev-main",
         "islandora_lite/islandora_search_processor": "dev-main",
