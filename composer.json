@@ -126,7 +126,7 @@
               "source": {
                 "url": "https://github.com/digitalutsc/media_thumbnails_jp2",
                 "type": "git",
-                "reference":"master"
+                "reference":"main"
               }
             }
         },                
