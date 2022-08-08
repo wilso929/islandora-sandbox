@@ -405,7 +405,8 @@
         "mjordan/islandora_workbench_integration": "dev-main",
         "drupal/jquery_ui_slider": "^1.1",
         "drupal/jquery_ui_touch_punch": "^1.0",
-        "drupal/drupal_libcal":"1.x-dev@dev"
+        "drupal/drupal_libcal":"1.x-dev@dev",
+        "drupal/pathauto": "^1.11"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
