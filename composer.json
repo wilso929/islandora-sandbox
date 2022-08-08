@@ -284,6 +284,19 @@
                 "reference":"main"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/islandora_site_name",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/islandora_site_name.git",
+                "type": "git",
+                "reference":"main"
+              }
+            }
         }
     ],
     "require": {
@@ -368,6 +381,7 @@
         "islandora_lite/views_nested_details": "dev-main",
         "islandora_lite/islandora_search_processor": "dev-main",
         "islandora_lite/islandora_object_thumbnail": "dev-main",
+        "islandora_lite/islandora_site_name": "dev-main",
         "digitalutsc/group_solr" : "dev-main",
         "digitalutsc/private_files_adapter": "dev-main",
         "digitalutsc/ajax_solr_search" : "1.0.x-dev",
