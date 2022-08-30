@@ -420,14 +420,15 @@
 	      "discard-changes": true,
           "sort-packages": true,
           "allow-plugins": {
-          "composer/installers": true,
-          "drupal/core-composer-scaffold": true,
-          "drupal/core-project-message": true,
-          "cweagans/composer-patches": true,
-          "zaporylie/composer-drupal-optimizations": true,
-          "wikimedia/composer-merge-plugin": true,
-          "dealerdirect/phpcodesniffer-composer-installer": true
-        }
+              "composer/installers": true,
+              "drupal/core-composer-scaffold": true,
+              "drupal/core-project-message": true,
+              "cweagans/composer-patches": true,
+              "drupal/core-composer-scaffold": true,
+              "zaporylie/composer-drupal-optimizations": true,
+              "wikimedia/composer-merge-plugin": true,
+              "dealerdirect/phpcodesniffer-composer-installer": true
+            }
     },
     "autoload": {
         "classmap": [
