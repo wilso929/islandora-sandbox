@@ -425,6 +425,8 @@
               "drupal/core-project-message": true,
               "cweagans/composer-patches": true,
               "drupal/core-composer-scaffold": true,
+              "oomphinc/composer-installers-extender": true,
+              "drupal/console-extend-plugin": true,
               "zaporylie/composer-drupal-optimizations": true,
               "wikimedia/composer-merge-plugin": true,
               "dealerdirect/phpcodesniffer-composer-installer": true
