@@ -129,7 +129,7 @@
                 "reference":"main"
               }
             }
-        },                
+        },
         {
             "type": "package",
             "package": {
@@ -344,7 +344,7 @@
         "drupal/fits": "^1.1@alpha",
         "drupal/media_thumbnails": "^1.0@alpha",
         "drupal/media_thumbnails_pdf": "^1.0@alpha",
-        "drupal/media_thumbnails_video": "^1.0@alpha",
+        "drupal/media_thumbnails_video": "^1.0@dev",
         "drupal/csv_importer": "^1.11",
         "drupal/tombstones": "^1.0@alpha",
         "react/child-process": "^0.6.4",
