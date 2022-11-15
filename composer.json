@@ -475,6 +475,11 @@
             "drupal/core": "-p2"
         },
         "patches": {
-        }
+        },
+        "merge-plugin": {
+            "include": [
+                "composer_site.json" 
+            ] 
+         }           
     }
 }
