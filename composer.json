@@ -356,7 +356,7 @@
         "drupal/migrate_plus" : "^5.1",
         "drupal/migrate_tools" : "^5.0",
         "drupal/migrate_source_csv" : "^3.4",
-        "drupal/media_library_edit" : "^2.2",
+        "drupal/media_library_edit" : "^3.0",
         "drupal/fico": "^3.0",
         "drupal/term_condition": "^2.0",
         "drupal/filemime": "^1.9",
