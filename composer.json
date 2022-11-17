@@ -310,7 +310,6 @@
         "drupal/devel": "^4.1",
         "drupal/facets": "^2.0@RC",
         "drupal/libraries": "^3.0@beta",
-        "drupal/matomo": "^1.17",
         "drupal/pdf": "^1.1",
         "drupal/rdfui": "^1.0-beta",
         "drupal/rest_oai_pmh": "^2.0@beta",
