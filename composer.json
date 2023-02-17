@@ -317,7 +317,7 @@
         "drupal/bootstrap": "^3.19",
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/chart_suite": "^1.1",
-        "drupal/citation_select": "1.0@beta",
+        "drupal/citation_select": "^1.0@beta",
         "drupal/context": "^4.0@beta",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-recommended": "^9.5",
