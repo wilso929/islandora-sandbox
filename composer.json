@@ -344,7 +344,7 @@
         "drupal/matomo": "^1.19",
         "drupal/media_library_edit": "^3.0",
         "drupal/media_thumbnails": "^1.0@beta",
-        "drupal/media_thumbnails_pdf": "^1.0@beta",
+        "drupal/media_thumbnails_pdf": "^2.0@beta",
         "drupal/media_thumbnails_video": "^2.0",
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.4",
