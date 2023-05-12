@@ -56,12 +56,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/islandora_display",
-              "version": "dev-main",
+              "version": "dev-ableplayer_update",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/islandora_display.git",
                 "type": "git",
-                "reference":"main"
+                "reference":"ableplayer_update"
               }
             }
         },
@@ -384,7 +384,7 @@
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
         "islandora_lite/islandora_defaults": "dev-main",
-        "islandora_lite/islandora_display": "dev-main",
+        "islandora_lite/islandora_display": "dev-ableplayer_update",
         "islandora_lite/islandora_lite_solr_search": "dev-main",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
         "islandora_lite/islandora_object_thumbnail": "dev-main",
