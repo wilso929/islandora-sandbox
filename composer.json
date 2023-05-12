@@ -81,13 +81,13 @@
         {
             "type": "package",
             "package": {
-              "name": "islandora_lite/ableplayer",
-              "version": "dev-islandra-lite",
+              "name": "islandora_lite/ableplayer_extend",
+              "version": "dev-main",
               "type": "drupal-module",
               "source": {
-                "url": "https://github.com/digitalutsc/ableplayer",
+                "url": "https://github.com/digitalutsc/ableplayer_extend",
                 "type": "git",
-                "reference":"islandra-lite"
+                "reference":"main"
               }
             }
         },
@@ -371,13 +371,14 @@
         "drupal/views_flipped_table": "^1.4",
         "drupal/views_slideshow": "^4.8",
         "drupal/views_timelinejs": "^4.0@beta",
+        "drupal/ableplayer": "^3.0@alpha",
         "drush/drush": "^10.0.0",
         "easyrdf/easyrdf": "^1.1",
         "islandora/advanced_search": "dev-contrib",
         "islandora/controlled_access_terms": "^2",
         "islandora/jsonld": "2.1.0",
         "islandora/openseadragon": "^2.0",
-        "islandora_lite/ableplayer": "dev-islandra-lite",
+        "islandora_lite/ableplayer_extend": "dev-main",
         "islandora_lite/facets_year_range": "dev-main",
         "islandora_lite/fico_taxonomy_condition": "dev-main",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
