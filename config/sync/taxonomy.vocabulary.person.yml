@@ -1,0 +1,10 @@
+uuid: 1bb09a19-e8fd-433e-a7d0-fccd60e1db98
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GAHBiBARA1hdVQoJq1P1oyK47vGxwTr3vyiPsnwqD44
+name: Person
+vid: person
+description: 'An individual of the human species. '
+weight: 0

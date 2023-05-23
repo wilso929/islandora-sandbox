@@ -1,0 +1,37 @@
+uuid: b95d3c74-3d69-4896-911a-545fccd06013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_media_use
+    - media.type.file
+  module:
+    - fico
+    - file
+id: media.file.default
+targetEntityType: media
+bundle: file
+mode: default
+content:
+  field_media_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings:
+      fico:
+        fico:
+          condition: hide_not_empty
+          settings:
+            target_field: field_media_use
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_use: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

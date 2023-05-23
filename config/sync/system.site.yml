@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 494d98a2-8692-4151-9b7d-67e8d1846d82
+name: Default
+mail: webmaster@localhost.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /collections
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

@@ -1,0 +1,29 @@
+uuid: c4723ec0-aec1-43a2-bc61-8bfbdd953329
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+    - view_mode_switch
+  enforced: {  }
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: dabVNi5nOTBnACkZ6yNYJdLf7sFzV4sdizgPed8JQzo
+id: node.field_view_mode
+field_name: field_view_mode
+entity_type: node
+type: view_mode_switch
+settings:
+  origin_view_modes:
+    default: default
+    full: full
+module: view_mode_switch
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

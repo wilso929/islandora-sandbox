@@ -1,0 +1,40 @@
+uuid: 90b01236-ef4e-4830-b1df-1bf6789921f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.remote_video.ableplayer_audio_description
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_media_use
+    - media.type.remote_video
+  module:
+    - fico
+    - media
+id: media.remote_video.default
+targetEntityType: media
+bundle: remote_video
+mode: default
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: hidden
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings:
+      fico:
+        fico:
+          condition: hide_not_empty
+          settings:
+            target_field: field_media_use
+    weight: 0
+    region: content
+hidden:
+  ableplayer_audio_description: true
+  created: true
+  field_media_use: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

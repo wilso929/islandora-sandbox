@@ -1,0 +1,40 @@
+uuid: 78343749-3e8e-4230-ae65-04dd23b82ac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.islandora_models.field_external_uri
+    - taxonomy.vocabulary.islandora_models
+  module:
+    - link
+    - text
+  enforced: {  }
+_core:
+  default_config_hash: R3ZNNH67EOZDtMeNmuJF9EtL--DDMmZA7Gqk5dhrumQ
+id: taxonomy_term.islandora_models.default
+targetEntityType: taxonomy_term
+bundle: islandora_models
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_external_uri:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,16 @@
+uuid: 7fb12d8e-48a4-4224-bedf-1a6296e04eb2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hlOFmQWNxW8ZXjRQJH-gvaekDlvkN1Bai0TeKYI7qRA
+id: file
+label: File
+description: 'Files that do not fit into other types listed here.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name

@@ -1,0 +1,23 @@
+uuid: 11e99fff-a7db-48ee-840c-2df2827efa42
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced: {  }
+_core:
+  default_config_hash: ViwxEByeoqGWLo9uZCASa7v6HhkYB46plEn35uKLvLE
+id: node.field_weight
+field_name: field_weight
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 08fb88ee-9e08-4b77-8d16-2b7279107b84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.file
+  module:
+    - file
+_core:
+  default_config_hash: T8yIQtSZnbSYErLXCbINWwrVWNDPAM64GIXqTKcDeu4
+id: media.file.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: file
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'zip po json'
+  max_filesize: ''
+  description_field: false
+field_type: file

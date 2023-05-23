@@ -1,0 +1,42 @@
+uuid: 54a2ca0c-0dae-4fd4-ab30-65fbc8bf1094
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.ableplayer_viewer
+    - core.entity_view_mode.node.archive_list_contents_viewer
+    - core.entity_view_mode.node.book_viewer
+    - core.entity_view_mode.node.csv_viewer
+    - core.entity_view_mode.node.openseadragon_viewer
+    - core.entity_view_mode.node.pdfjs_viewer
+    - core.entity_view_mode.node.remote_video_viewer
+    - core.entity_view_mode.node.replayweb_player_viewer
+    - field.storage.node.field_view_mode
+    - node.type.islandora_object
+  module:
+    - view_mode_switch
+  enforced: {  }
+_core:
+  default_config_hash: RLpnf77FDDtRRjsYyEfdcFxWR1OS1Tqg1SYIMqg7TP0
+id: node.islandora_object.field_view_mode
+field_name: field_view_mode
+entity_type: node
+bundle: islandora_object
+label: 'View Mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_view_modes:
+    ableplayer_viewer: ableplayer_viewer
+    archive_list_contents_viewer: archive_list_contents_viewer
+    book_viewer: book_viewer
+    csv_viewer: csv_viewer
+    mirador_view: mirador_viewer
+    openseadragon_viewer: openseadragon_viewer
+    pdfjs_viewer: pdfjs_viewer
+    remote_video_viewer: remote_video_viewer
+    replayweb_player_viewer: replayweb_player_viewer
+field_type: view_mode_switch
