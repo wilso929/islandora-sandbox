@@ -6,19 +6,16 @@ _core:
   default_config_hash: BU1LDBtK_iAREhwVUW7mCK2lYqPSpEdhJIiHNsR4aJc
 id: advanced_search_publication_date
 name: 'Publication Date (Advanced Search)'
-url_alias: publication_date
 weight: 0
 min_count: 1
 missing: false
 missing_label: others
-show_only_one_result: false
-field_identifier: field_edtf_date_created
+url_alias: publication_date
 facet_source_id: 'search_api:views_page__advanced_search__page_1'
-widget:
-  type: year_range
-  config:
-    show_numbers: false
+field_identifier: field_edtf_date_created
 query_operator: or
+hard_limit: 0
+exclude: false
 use_hierarchy: false
 keep_hierarchy_parents_active: false
 hierarchy:
@@ -26,9 +23,15 @@ hierarchy:
   config: {  }
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
-hard_limit: 0
-exclude: false
+widget:
+  type: year_range
+  config:
+    show_numbers: false
+empty_behavior:
+  behavior: none
 only_visible_when_facet_source_is_visible: true
+show_only_one_result: false
+show_title: false
 processor_configs:
   active_widget_order:
     processor_id: active_widget_order
@@ -65,6 +68,3 @@ processor_configs:
       pre_query: 60
       build: 20
     settings: {  }
-empty_behavior:
-  behavior: none
-show_title: false

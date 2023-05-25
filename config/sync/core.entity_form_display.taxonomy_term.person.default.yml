@@ -23,55 +23,55 @@ content:
   description:
     type: text_textarea
     weight: 5
+    region: content
     settings:
       rows: 9
       placeholder: ''
     third_party_settings: {  }
-    region: content
   field_alternate_name:
+    type: string_textfield
     weight: 4
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_authority_link:
+    type: authority_link_default
     weight: 1
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: authority_link_default
-    region: content
   field_cat_date_begin:
+    type: edtf_default
     weight: 7
+    region: content
     settings:
       strict_dates: false
       intervals: false
       sets: false
     third_party_settings: {  }
-    type: edtf_default
-    region: content
   field_cat_date_end:
+    type: edtf_default
     weight: 8
+    region: content
     settings:
       strict_dates: false
       intervals: false
       sets: false
     third_party_settings: {  }
-    type: edtf_default
-    region: content
   field_relationships:
+    type: typed_relation_default
     weight: 9
+    region: content
     settings:
       match_operator: CONTAINS
-      size: '60'
+      size: 60
       placeholder: ''
       match_limit: 10
     third_party_settings: {  }
-    type: typed_relation_default
-    region: content
   langcode:
     type: language_select
     weight: 2
@@ -95,10 +95,10 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 10
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   translation:
     weight: 6

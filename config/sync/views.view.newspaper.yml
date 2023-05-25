@@ -210,6 +210,11 @@ display:
           click_sort_column: value
           type: edtf_default
           settings:
+            date_separator: dash
+            date_order: big_endian
+            month_format: nm
+            day_format: nd
+            year_format: 'y'
             relationship: none
             fieldsets:
               - more
@@ -272,11 +277,6 @@ display:
             click_sort_column: value
             type: edtf_default
             field_api_classes: 0
-            date_separator: dash
-            date_order: big_endian
-            month_format: nm
-            day_format: nd
-            year_format: 'y'
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -339,6 +339,11 @@ display:
           click_sort_column: value
           type: edtf_default
           settings:
+            date_separator: dash
+            date_order: big_endian
+            month_format: mmmm
+            day_format: nd
+            year_format: ny
             relationship: none
             fieldsets:
               - more
@@ -401,11 +406,6 @@ display:
             click_sort_column: value
             type: edtf_default
             field_api_classes: 0
-            date_separator: dash
-            date_order: big_endian
-            month_format: mmmm
-            day_format: nd
-            year_format: ny
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -468,6 +468,11 @@ display:
           click_sort_column: value
           type: edtf_default
           settings:
+            date_separator: dash
+            date_order: big_endian
+            month_format: mm
+            day_format: dd
+            year_format: 'y'
             relationship: none
             fieldsets:
               - more
@@ -530,11 +535,6 @@ display:
             click_sort_column: value
             type: edtf_default
             field_api_classes: 0
-            date_separator: dash
-            date_order: big_endian
-            month_format: mm
-            day_format: dd
-            year_format: 'y'
           group_column: value
           group_columns: {  }
           group_rows: true

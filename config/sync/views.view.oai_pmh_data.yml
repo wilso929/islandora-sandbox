@@ -670,7 +670,7 @@ display:
           click_sort_column: target_id
           type: typed_relation_default
           settings:
-            link: 0
+            link: false
           group_column: ''
           group_columns: {  }
           group_rows: true

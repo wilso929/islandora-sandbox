@@ -307,6 +307,11 @@ display:
           click_sort_column: value
           type: edtf_default
           settings:
+            date_separator: dash
+            date_order: big_endian
+            month_format: mm
+            day_format: dd
+            year_format: 'y'
             relationship: none
             field_rendering: 1
             fieldsets:
@@ -370,11 +375,6 @@ display:
             click_sort_column: value
             type: edtf_default
             field_api_classes: 0
-            date_separator: dash
-            date_order: big_endian
-            month_format: mm
-            day_format: dd
-            year_format: 'y'
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -993,6 +993,11 @@ display:
           click_sort_column: value
           type: edtf_default
           settings:
+            date_separator: dash
+            date_order: big_endian
+            month_format: mm
+            day_format: dd
+            year_format: 'y'
             relationship: none
             field_rendering: 1
             fieldsets:
@@ -1056,11 +1061,6 @@ display:
             click_sort_column: value
             type: edtf_default
             field_api_classes: 0
-            date_separator: dash
-            date_order: big_endian
-            month_format: mm
-            day_format: dd
-            year_format: 'y'
           group_column: value
           group_columns: {  }
           group_rows: true
