@@ -1697,52 +1697,6 @@
             "time": "2021-12-03T16:48:58+00:00"
         },
         {
-            "name": "digitalutsc/ajax_solr_search",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/digitalutsc/ajax_solr_search.git",
-                "reference": "40a95d8765c6fdfb4a0e83b6181018b491bdabee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/digitalutsc/ajax_solr_search/zipball/40a95d8765c6fdfb4a0e83b6181018b491bdabee",
-                "reference": "40a95d8765c6fdfb4a0e83b6181018b491bdabee",
-                "shasum": ""
-            },
-            "require-dev": {
-                "drupal/coder": "*",
-                "phpunit/phpunit": "^8",
-                "sebastian/phpcpd": "*",
-                "squizlabs/php_codesniffer": "^3"
-            },
-            "default-branch": true,
-            "type": "drupal-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "The University of Toronto Scarborough Library's Digital Scholarship Unit (DSU)",
-                    "email": "digitalscholarship@utsc.utoronto.ca",
-                    "role": "Owner"
-                },
-                {
-                    "name": "Kyle Huynh",
-                    "email": "kyle.huynh205@gmail.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Drupal 8/9 module provide a user interface for the Federated Search functionality among all of Drupal sites which index content to one shared Solr core",
-            "homepage": "https://www.drupal.org/project/ajax_solr_search",
-            "support": {
-                "issues": "https://www.drupal.org/project/issues/ajax_solr_search",
-                "source": "http://cgit.drupalcode.org/ajax_solr_search"
-            },
-            "time": "2023-02-23T15:07:32+00:00"
-        },
-        {
             "name": "digitalutsc/private_files_adapter",
             "version": "dev-main",
             "source": {
@@ -9576,6 +9530,16 @@
             "type": "drupal-module"
         },
         {
+            "name": "islandora_lite/termwithuri_condition",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitalutsc/termwithuri_condition.git",
+                "reference": "main"
+            },
+            "type": "drupal-module"
+        },
+        {
             "name": "itamair/geophp",
             "version": "1.5",
             "source": {
@@ -10181,16 +10145,6 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
-        },
-        {
-            "name": "library/ajax-solr",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/evolvingweb/ajax-solr.git",
-                "reference": "master"
-            },
-            "type": "drupal-library"
         },
         {
             "name": "library/masonry",
@@ -19905,7 +19859,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "digitalutsc/ajax_solr_search": 20,
         "digitalutsc/private_files_adapter": 20,
         "drupal/advancedqueue": 5,
         "drupal/advancedqueue_runner": 15,
@@ -19946,8 +19899,8 @@
         "islandora_lite/islandora_site_name": 20,
         "islandora_lite/media_thumbnails_jp2": 20,
         "islandora_lite/media_thumbnails_tiff": 20,
-        "library/ajax-solr": 20,
-        "mjordan/islandora_workbench_integration": 20
+        "mjordan/islandora_workbench_integration": 20,
+        "islandora_lite/termwithuri_condition": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -6,6 +6,7 @@ dependencies:
     - field.storage.media.field_media_document
     - field.storage.media.field_media_use
     - image.style.large
+    - image.style.thumbnail
   module:
     - file
     - image
@@ -423,7 +424,7 @@ display:
           type: image
           settings:
             image_link: ''
-            image_style: large
+            image_style: thumbnail
             image_loading:
               attribute: lazy
           group_column: ''
@@ -490,7 +491,7 @@ display:
           click_sort_column: target_id
           type: image_url
           settings:
-            image_style: large
+            image_style: thumbnail
           group_column: ''
           group_columns: {  }
           group_rows: true

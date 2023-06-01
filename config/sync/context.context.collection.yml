@@ -1,0 +1,27 @@
+uuid: fb53af01-1d04-4128-90ca-133e8a389eb1
+langcode: en
+status: true
+dependencies:
+  module:
+    - termwithuri_condition
+label: Collection
+name: collection
+group: Display
+description: 'If a Collection or Compound, display a block of children'
+requireAllConditions: false
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    logic: or
+    uri: 'http://purl.org/dc/dcmitype/Collection,http://vocab.getty.edu/aat/300242735'
+    negate: 0
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    id: blocks
+    blocks: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0

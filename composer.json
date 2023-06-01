@@ -159,19 +159,6 @@
         {
             "type": "package",
             "package": {
-              "name": "library/ajax-solr",
-              "version": "dev-master",
-              "type": "drupal-library",
-              "source": {
-                "url": "https://github.com/evolvingweb/ajax-solr.git",
-                "type": "git",
-                "reference":"master"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
               "name": "library/timeline3",
               "version": "3.8.18",
               "type": "drupal-library",
@@ -297,12 +284,24 @@
                 "reference":"main"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/termwithuri_condition",
+              "version": "dev-main",
+              "type": "drupal-module",
+              "source": {
+                "url": "https://github.com/digitalutsc/termwithuri_condition.git",
+                "type": "git",
+                "reference":"main"
+              }
+            }
         }
     ],
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "digitalutsc/ajax_solr_search": "1.0.x-dev",
         "digitalutsc/private_files_adapter": "dev-main",
         "drupal/admin_toolbar": "^3.0",
         "drupal/advancedqueue": "^1.0@RC",
@@ -393,7 +392,6 @@
         "islandora_lite/media_thumbnails_jp2": "dev-master",
         "islandora_lite/media_thumbnails_tiff": "dev-master",
         "islandora/views_nested_details": "^1.0.0-beta",
-        "library/ajax-solr": "dev-master",
         "library/masonry": "3.3.2",
         "library/pdf.js": "2.10.377",
         "library/timeline3": "3.8.18",
@@ -404,7 +402,8 @@
         "vlucas/phpdotenv": "^2.4",
         "webmozart/path-util": "^2.3",
         "wikimedia/composer-merge-plugin": "^2.0",
-        "zaporylie/composer-drupal-optimizations": "^1.2"
+        "zaporylie/composer-drupal-optimizations": "^1.2",
+        "islandora_lite/termwithuri_condition": "dev-main"
     },
     "require-dev": {
         "drupal/core-dev": "^9.5"
