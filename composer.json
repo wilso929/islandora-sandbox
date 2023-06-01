@@ -43,12 +43,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/islandora_defaults",
-              "version": "dev-config_sync",
+              "version": "dev-main",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/islandora_content_type.git",
                 "type": "git",
-                "reference":"config_sync"
+                "reference":"main"
               }
             }
         },
@@ -383,7 +383,7 @@
         "islandora_lite/fico_taxonomy_condition": "dev-main",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
-        "islandora_lite/islandora_defaults": "dev-config_sync",
+        "islandora_lite/islandora_defaults": "dev-main",
         "islandora_lite/islandora_display": "dev-main",
         "islandora_lite/islandora_lite_solr_search": "dev-main",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
