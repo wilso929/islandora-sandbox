@@ -17,7 +17,7 @@ source:
   header_row_count: 1
   ids:
     - external_uri
-  path: modules/contrib/islandora_defaults/migrate/tags.csv
+  path: assets/migrate/tags.csv
   plugin: csv
 process:
   description: description
