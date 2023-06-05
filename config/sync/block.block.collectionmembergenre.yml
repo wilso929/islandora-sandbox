@@ -17,7 +17,7 @@ provider: null
 plugin: 'facet_block:collection_member_genre'
 settings:
   id: 'facet_block:collection_member_genre'
-  label: 'Genre'
+  label: Genre
   label_display: visible
   provider: facets
   context_mapping: {  }

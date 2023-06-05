@@ -13,7 +13,7 @@ dependencies:
 id: views_block__download_button_block_1
 theme: olivero
 region: content
-weight: -7
+weight: -18
 provider: null
 plugin: 'views_block:download_button-block_1'
 settings:

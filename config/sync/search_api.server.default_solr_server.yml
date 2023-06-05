@@ -43,7 +43,7 @@ backend_config:
   connector: standard
   connector_config:
     scheme: http
-    host: islandora.traefik.me
+    host: solr
     port: 8983
     path: /
     core: ISLANDORA

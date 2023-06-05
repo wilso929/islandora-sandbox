@@ -14,7 +14,7 @@ dependencies:
 id: views_block__newspaper_block_1
 theme: olivero
 region: content
-weight: 0
+weight: -13
 provider: null
 plugin: 'views_block:newspaper-block_1'
 settings:

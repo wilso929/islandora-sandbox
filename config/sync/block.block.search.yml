@@ -24,6 +24,7 @@ settings:
   search_placeholder: 'Search Collections'
   search_submit_label: Search
   search_method: dismax
+  block_id: search
 visibility:
   context_all:
     id: context_all

@@ -10,7 +10,7 @@ dependencies:
 id: advancedsearchsearchresultspagerforpage
 theme: olivero
 region: content
-weight: -6
+weight: -17
 provider: null
 plugin: 'advanced_search_result_pager:advanced_search__page_1'
 settings:

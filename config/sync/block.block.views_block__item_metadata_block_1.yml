@@ -13,7 +13,7 @@ dependencies:
 id: views_block__item_metadata_block_1
 theme: olivero
 region: content
-weight: 0
+weight: -14
 provider: null
 plugin: 'views_block:item_metadata-block_1'
 settings:
