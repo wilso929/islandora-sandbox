@@ -24,12 +24,19 @@ content:
       loop: false
       multiple_file_display_type: tags
     third_party_settings: {  }
+    weight: 1
+    region: content
+  name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:
   created: true
   langcode: true
-  name: true
   search_api_excerpt: true
   thumbnail: true
   uid: true

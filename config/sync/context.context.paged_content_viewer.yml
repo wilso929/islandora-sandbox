@@ -15,7 +15,7 @@ conditions:
   node_has_term:
     id: node_has_term
     logic: and
-    uri: 'https://schema.org/Book,https://projectmirador.org/'
+    uri: 'https://schema.org/Book,https://projectmirador.org'
     negate: 0
     uuid: 42b55cc6-89be-4f2a-855d-b2963c139692
     context_mapping:
