@@ -17,7 +17,7 @@ conditions:
   node_has_term:
     id: node_has_term
     logic: or
-    uri: 'http://mozilla.github.io/pdf.js,http://openseadragon.github.io,https://projectmirador.org/,https://ableplayer.github.io/ableplayer,https://www.drupal.org/project/csvfile_formatter,https://www.drupal.org/project/archive_list_contents'
+    uri: 'http://mozilla.github.io/pdf.js,http://openseadragon.github.io,https://projectmirador.org,https://ableplayer.github.io/ableplayer,https://www.drupal.org/project/csvfile_formatter,https://www.drupal.org/project/archive_list_contents'
     negate: 1
     uuid: 42b55cc6-89be-4f2a-855d-b2963c139692
     context_mapping:
