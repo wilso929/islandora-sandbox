@@ -13,7 +13,6 @@ dependencies:
     - field.field.media.audio.field_media_use
     - media.type.audio
   module:
-    - fico
     - file_entity
 _core:
   default_config_hash: tbOG3mzxYFe_tZB0pKc0yIZSccK2jhJ525X3HBtUQcM
@@ -30,13 +29,7 @@ content:
       autoplay: false
       loop: false
       multiple_file_behavior: tags
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

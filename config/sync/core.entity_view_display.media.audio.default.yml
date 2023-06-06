@@ -12,7 +12,6 @@ dependencies:
     - field.field.media.audio.field_media_use
     - media.type.audio
   module:
-    - fico
     - file_entity
 id: media.audio.default
 targetEntityType: media
@@ -27,12 +26,7 @@ content:
       autoplay: false
       loop: false
       multiple_file_behavior: tags
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_not_empty
-          settings:
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

@@ -7,7 +7,6 @@ dependencies:
     - field.field.media.file.field_media_use
     - media.type.file
   module:
-    - fico
     - file
 id: media.file.default
 targetEntityType: media
@@ -19,12 +18,7 @@ content:
     label: above
     settings:
       use_description_as_link_text: true
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_not_empty
-          settings:
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

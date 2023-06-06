@@ -9,7 +9,6 @@ dependencies:
     - media.type.file
   module:
     - archive_list_contents
-    - fico
 _core:
   default_config_hash: 3yPBcBhuzFIHH-Tzj0uO6zT6Mh_Fn_QFk4HYQQo1VZ0
 id: media.file.archive_list_contents_viewer
@@ -21,13 +20,7 @@ content:
     type: archive_list_contents
     label: visually_hidden
     settings: {  }
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

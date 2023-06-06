@@ -8,7 +8,6 @@ dependencies:
     - field.field.media.file.field_media_use
     - media.type.file
   module:
-    - fico
     - file
 _core:
   default_config_hash: vG_b7Xpt72vrCSi6pDCJvfE-guw_4Ed69jrb6GrEmsA
@@ -22,13 +21,7 @@ content:
     label: visually_hidden
     settings:
       use_description_as_link_text: true
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

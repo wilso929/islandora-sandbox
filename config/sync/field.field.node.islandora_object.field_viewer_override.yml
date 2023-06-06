@@ -1,20 +1,17 @@
-uuid: f8889588-a763-4739-845d-cafa9da5be02
+uuid: 86fa9ff0-1ff3-40f4-90bd-c9430697c9db
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_display_hints
+    - field.storage.node.field_viewer_override
     - node.type.islandora_object
     - taxonomy.vocabulary.islandora_display
-  enforced: {  }
-_core:
-  default_config_hash: 0PTvIS3-VovLt_PMKWjQzCAYv1790rkdBbqaL3ER-VM
-id: node.islandora_object.field_display_hints
-field_name: field_display_hints
+id: node.islandora_object.field_viewer_override
+field_name: field_viewer_override
 entity_type: node
 bundle: islandora_object
-label: 'Display hints'
-description: 'Terms that will change how this resource is displayed.'
+label: 'Viewer Override'
+description: ''
 required: false
 translatable: false
 default_value: {  }

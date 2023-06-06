@@ -14,7 +14,6 @@ dependencies:
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
     - field.field.node.islandora_object.field_digital_origin
-    - field.field.node.islandora_object.field_display_hints
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
@@ -56,7 +55,7 @@ dependencies:
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
-    - field.field.node.islandora_object.field_view_mode
+    - field.field.node.islandora_object.field_viewer_override
     - field.field.node.islandora_object.field_volume
     - field.field.node.islandora_object.field_weight
     - node.type.islandora_object
@@ -69,7 +68,6 @@ dependencies:
     - media_library_edit
     - path
     - text
-    - view_mode_switch
   enforced: {  }
 third_party_settings:
   field_group:
@@ -152,14 +150,13 @@ third_party_settings:
         - field_related_archival_item
         - field_related_item_note
         - langcode
-        - field_display_hints
         - field_pid
         - field_weight
         - field_cataloguing_language
         - field_exhibit_name
         - field_exhibit_weight
         - field_content_warning
-        - field_view_mode
+        - field_viewer_override
       label: System
       region: content
       parent_name: group_tabs_view
@@ -217,7 +214,7 @@ content:
     third_party_settings: {  }
   field_cataloguing_language:
     type: entity_reference_autocomplete
-    weight: 49
+    weight: 48
     region: content
     settings:
       match_operator: CONTAINS
@@ -235,7 +232,7 @@ content:
     third_party_settings: {  }
   field_content_warning:
     type: string_textfield
-    weight: 52
+    weight: 51
     region: content
     settings:
       size: 60
@@ -285,12 +282,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_display_hints:
-    type: options_buttons
-    weight: 46
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_edition:
     type: string_textfield
     weight: 10
@@ -328,7 +319,7 @@ content:
     third_party_settings: {  }
   field_exhibit_name:
     type: entity_reference_autocomplete
-    weight: 50
+    weight: 49
     region: content
     settings:
       match_operator: CONTAINS
@@ -338,7 +329,7 @@ content:
     third_party_settings: {  }
   field_exhibit_weight:
     type: number
-    weight: 51
+    weight: 50
     region: content
     settings:
       placeholder: ''
@@ -536,7 +527,7 @@ content:
     third_party_settings: {  }
   field_pid:
     type: string_textfield
-    weight: 47
+    weight: 46
     region: content
     settings:
       size: 60
@@ -642,11 +633,15 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_view_mode:
-    type: view_mode_switch
-    weight: 53
+  field_viewer_override:
+    type: entity_reference_autocomplete
+    weight: 52
     region: content
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_volume:
     type: number
@@ -657,7 +652,7 @@ content:
     third_party_settings: {  }
   field_weight:
     type: number
-    weight: 48
+    weight: 47
     region: content
     settings:
       placeholder: ''

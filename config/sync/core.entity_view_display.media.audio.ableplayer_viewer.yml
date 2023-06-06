@@ -15,7 +15,6 @@ dependencies:
   module:
     - ableplayer
     - ableplayer_extend
-    - fico
 _core:
   default_config_hash: hGu__WOPkH-fGVmY3e7nA2Frph-69vo8ivaO0pEDyFY
 id: media.audio.ableplayer_viewer
@@ -35,12 +34,6 @@ content:
       ableplayer_extend:
         display_ableplayer_transcript_audio: '1'
         show_timestamp_audio: '1'
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
     weight: 0
     region: content
 hidden:

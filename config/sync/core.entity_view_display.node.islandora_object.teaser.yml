@@ -15,7 +15,6 @@ dependencies:
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
     - field.field.node.islandora_object.field_digital_origin
-    - field.field.node.islandora_object.field_display_hints
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
@@ -57,7 +56,7 @@ dependencies:
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
-    - field.field.node.islandora_object.field_view_mode
+    - field.field.node.islandora_object.field_viewer_override
     - field.field.node.islandora_object.field_volume
     - field.field.node.islandora_object.field_weight
     - node.type.islandora_object
@@ -106,7 +105,6 @@ hidden:
   field_description: true
   field_dewey_classification: true
   field_digital_origin: true
-  field_display_hints: true
   field_edition: true
   field_edtf_date: true
   field_edtf_date_created: true
@@ -148,7 +146,7 @@ hidden:
   field_subjects_name: true
   field_table_of_contents: true
   field_temporal_subject: true
-  field_view_mode: true
+  field_viewer_override: true
   field_volume: true
   field_weight: true
   langcode: true

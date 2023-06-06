@@ -9,7 +9,6 @@ dependencies:
     - field.field.media.image.field_ocr
     - media.type.image
   module:
-    - fico
     - islandora_mirador
 _core:
   default_config_hash: uWqzdLRlHiAIS6aDLgsL5uh7CrtpKQVRH3sMqXFyn_Q
@@ -22,13 +21,7 @@ content:
     type: mirador_image
     label: visually_hidden
     settings: {  }
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:

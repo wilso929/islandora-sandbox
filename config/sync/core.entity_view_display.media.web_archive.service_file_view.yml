@@ -9,7 +9,6 @@ dependencies:
     - field.field.media.web_archive.field_media_use
     - media.type.web_archive
   module:
-    - fico
     - link
     - replaywebpage
 _core:
@@ -38,13 +37,7 @@ content:
       max_width: '0'
       max_height: '600'
       no_sandbox: 0
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

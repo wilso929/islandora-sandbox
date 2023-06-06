@@ -8,7 +8,6 @@ dependencies:
     - field.field.media.remote_video.field_media_use
     - media.type.remote_video
   module:
-    - fico
     - media
 id: media.remote_video.default
 targetEntityType: media
@@ -21,12 +20,7 @@ content:
     settings:
       max_width: 0
       max_height: 0
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_not_empty
-          settings:
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

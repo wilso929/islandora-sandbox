@@ -9,7 +9,6 @@ dependencies:
     - media.type.document
   module:
     - csvfile_formatter
-    - fico
 _core:
   default_config_hash: a3-8-dprX1-b45bc-BGZ2eNFr219KvMpB06ld6E1R48
 id: media.document.csv_viewer
@@ -34,13 +33,7 @@ content:
       csvfile_formatter_download_link: 0
       csvfile_formatter_download_link_after_table: 0
       csvfile_formatter_smart_urls: 0
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

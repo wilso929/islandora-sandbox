@@ -1,15 +1,16 @@
-uuid: edb82144-c683-4f43-9548-299954919c90
+uuid: 620e3a44-8300-4ea2-9807-18e5bcd731a4
 langcode: en
 status: true
 dependencies:
   module:
+    - field_permissions
     - node
     - taxonomy
-  enforced: {  }
-_core:
-  default_config_hash: TwOYnwhWCxQxySkleDggr-bLzvx3C7AHZYalceWOwHg
-id: node.field_display_hints
-field_name: field_display_hints
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: node.field_viewer_override
+field_name: field_viewer_override
 entity_type: node
 type: entity_reference
 settings:

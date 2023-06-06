@@ -12,7 +12,6 @@ dependencies:
     - field.field.media.video.field_media_video_file
     - media.type.video
   module:
-    - fico
     - file_entity
 id: media.video.default
 targetEntityType: media
@@ -31,12 +30,7 @@ content:
       height: null
       multiple_file_behavior: tags
       playsinline: 0
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_not_empty
-          settings:
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:

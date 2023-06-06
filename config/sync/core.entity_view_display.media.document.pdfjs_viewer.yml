@@ -8,7 +8,6 @@ dependencies:
     - field.field.media.document.field_media_use
     - media.type.document
   module:
-    - fico
     - pdf
   enforced: {  }
 _core:
@@ -29,13 +28,7 @@ content:
       pagemode: ''
       width: 100%
       zoom: ''
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            string: 'Service File'
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:

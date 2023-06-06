@@ -5,10 +5,10 @@ dependencies:
   config:
     - field.field.media.image.field_media_image
     - field.field.media.image.field_media_use
+    - field.field.media.image.field_ocr
     - image.style.large
     - media.type.image
   module:
-    - fico
     - image
 id: media.image.default
 targetEntityType: media
@@ -23,12 +23,7 @@ content:
       image_style: large
       image_loading:
         attribute: lazy
-    third_party_settings:
-      fico:
-        fico:
-          condition: hide_not_empty
-          settings:
-            target_field: field_media_use
+    third_party_settings: {  }
     weight: 1
     region: content
 hidden:

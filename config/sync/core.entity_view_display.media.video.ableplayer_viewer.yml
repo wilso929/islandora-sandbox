@@ -15,7 +15,6 @@ dependencies:
   module:
     - ableplayer
     - ableplayer_extend
-    - fico
 _core:
   default_config_hash: t3QGe77l2X2ejEKe1TqYb9eJetnJkC_nciUAFnYufLE
 id: media.video.ableplayer_viewer
@@ -35,12 +34,6 @@ content:
       ableplayer_extend:
         display_ableplayer_transcript_video: '1'
         show_timestamp_video: '1'
-      fico:
-        fico:
-          condition: hide_no_taxonomy_value
-          settings:
-            target_field: field_media_use
-            string: 'Service File'
     weight: 0
     region: content
 hidden:
