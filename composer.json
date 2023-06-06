@@ -42,32 +42,6 @@
         {
             "type": "package",
             "package": {
-              "name": "islandora_lite/islandora_defaults",
-              "version": "dev-main",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/islandora_content_type.git",
-                "type": "git",
-                "reference":"main"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "islandora_lite/islandora_display",
-              "version": "dev-main",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/islandora_display.git",
-                "type": "git",
-                "reference":"main"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
               "name": "islandora/advanced_search",
               "version": "dev-contrib",
               "type": "drupal-module",
@@ -131,19 +105,6 @@
             }
         },
         {
-            "type": "package",
-            "package": {
-              "name": "islandora_lite/fico_taxonomy_condition",
-              "version": "dev-main",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/fico_taxonomy_condition",
-                "type": "git",
-                "reference":"main"
-              }
-            }
-        },
-        {
           "type": "package",
           "package": {
             "name": "islandora/views_nested_details",
@@ -171,32 +132,6 @@
         {
             "type": "package",
             "package": {
-              "name": "library/jquery-ui-touch-punch",
-              "version": "dev-master",
-              "type": "drupal-library",
-              "source": {
-                "url": "https://github.com/furf/jquery-ui-touch-punch.git",
-                "type": "git",
-                "reference":"master"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "library/jquery-ui-slider-pips",
-              "version": "dev-master",
-              "type": "drupal-library",
-              "source": {
-                "url": "https://github.com/simeydotme/jQuery-ui-Slider-Pips.git",
-                "type": "git",
-                "reference":"master"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
               "name": "islandora_lite/islandora_mirador",
               "version": "dev-drupal_mirador",
               "type": "drupal-module",
@@ -204,19 +139,6 @@
                 "url": "https://github.com/digitalutsc/islandora_mirador.git",
                 "type": "git",
                 "reference":"drupal_mirador"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "islandora_lite/islandora_lite_solr_search",
-              "version": "dev-main",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/islandora_lite_solr_search.git",
-                "type": "git",
-                "reference":"main"
               }
             }
         },
@@ -306,7 +228,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/advancedqueue": "^1.0@RC",
         "drupal/advancedqueue_runner": "^2.0@alpha",
-        "drupal/archive_list_contents": "1.x-dev@dev",
+        "drupal/archive_list_contents": "^1.0@beta",
         "drupal/asset_injector": "^2.10",
         "drupal/better_social_sharing_buttons": "^4.0",
         "drupal/citation_select": "^1.0@beta",
@@ -317,7 +239,6 @@
         "drupal/devel": "^4.1",
         "drupal/facets": "^2.0",
         "drupal/features": "^3.11",
-        "drupal/fico": "^3.0",
         "drupal/field_group": "^3.1",
         "drupal/field_permissions": "^1.1",
         "drupal/file_entity": "^2.0@beta",
@@ -349,7 +270,6 @@
         "drupal/tombstones": "^1.0@alpha",
         "drupal/triplestore_indexer": "^1.5@beta",
         "drupal/vde_drush": "^2.0",
-        "drupal/view_mode_switch": "^2.0",
         "drupal/views_bulk_edit": "^2.6",
         "drupal/views_bulk_operations": "^4.0",
         "drupal/views_data_export": "^1.2",
@@ -365,7 +285,6 @@
         "islandora/openseadragon": "^2.0",
         "islandora_lite/ableplayer_extend": "dev-main",
         "islandora_lite/facets_year_range": "dev-main",
-        "islandora_lite/fico_taxonomy_condition": "dev-main",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
@@ -448,7 +367,7 @@
                   "default": "web/core/assets/scaffold/files/default.settings.php",
                   "append": "assets/patches/default_settings.txt"
               }
-            }            
+            }
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
@@ -464,9 +383,6 @@
         },
         "enable-patching": true,
         "patches": {
-            "drupal/fico": {
-              "deprecated-3084136-3.patch": "https://www.drupal.org/files/issues/2022-02-10/deprecated-3084136-3.patch"
-            },
             "mjordan/islandora_workbench_integration": {
               "workbench_integration.patch": "https://raw.githubusercontent.com/digitalutsc/islandora_lite_installation/main/patches/workbench_integration.patch"
             },

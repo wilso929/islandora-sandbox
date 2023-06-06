@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ff7eb0f537dfa94c79db7d09ad60b00",
+    "content-hash": "0d7f380c9e126d741cacdba27d069b49",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -2879,23 +2879,26 @@
         },
         {
             "name": "drupal/archive_list_contents",
-            "version": "dev-1.x",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/archive_list_contents.git",
-                "reference": "d03ee87292ab520bdfa5f1333a49cc951abe9ef2"
+                "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/archive_list_contents-1.0.0-beta1.zip",
+                "reference": "1.0.0-beta1",
+                "shasum": "7147685fea40b5a626b1018eca9c09648812a662"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "1.x-dev",
-                    "datestamp": "1658933923",
+                    "version": "1.0.0-beta1",
+                    "datestamp": "1686081904",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2907,6 +2910,14 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "kirsta",
+                    "homepage": "https://www.drupal.org/user/173761"
+                },
+                {
+                    "name": "kylehuynh",
+                    "homepage": "https://www.drupal.org/user/3255474"
+                },
                 {
                     "name": "lkj.gomez",
                     "homepage": "https://www.drupal.org/user/3688342"
@@ -4179,76 +4190,6 @@
             }
         },
         {
-            "name": "drupal/ds",
-            "version": "3.15.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ds.git",
-                "reference": "8.x-3.15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.15.zip",
-                "reference": "8.x-3.15",
-                "shasum": "cf7ee6bde717dc2d7f10d5f834ca29fb80285d0d"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10"
-            },
-            "require-dev": {
-                "drupal/classy": "^1.0",
-                "drupal/devel": "5.x-dev"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.15",
-                    "datestamp": "1662818537",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Bram Goffings",
-                    "homepage": "https://www.drupal.org/user/172527",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Kristof De Jaeger",
-                    "homepage": "http://realize.be/",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Brecht Ceyssens",
-                    "homepage": "https://www.drupal.org/user/591438",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "swentel",
-                    "homepage": "https://www.drupal.org/user/107403"
-                }
-            ],
-            "description": "Extend the display options for every entity type.",
-            "homepage": "https://www.drupal.org/project/ds",
-            "keywords": [
-                "drupal",
-                "layout",
-                "php"
-            ],
-            "support": {
-                "source": "http://git.drupal.org/project/ds.git",
-                "issues": "https://www.drupal.org/project/issues/ds",
-                "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
             "name": "drupal/entity",
             "version": "1.4.0",
             "source": {
@@ -4393,27 +4334,27 @@
         },
         {
             "name": "drupal/features",
-            "version": "3.12.0",
+            "version": "3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/features.git",
-                "reference": "8.x-3.12"
+                "reference": "8.x-3.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.12.zip",
-                "reference": "8.x-3.12",
-                "shasum": "f28d6e7d3340e32666a3e8ae515ed746dbe86b98"
+                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.13.zip",
+                "reference": "8.x-3.13",
+                "shasum": "d722769994ae9277fa99bba3abc2a891011055db"
             },
             "require": {
-                "drupal/config_update": "^1.4",
-                "drupal/core": "^8.8 || ^9"
+                "drupal/config_update": "^1.4 || ^2",
+                "drupal/core": "^9.4 || ^10"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.12",
-                    "datestamp": "1612830531",
+                    "version": "8.x-3.13",
+                    "datestamp": "1686073886",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4421,7 +4362,7 @@
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9 || ^10"
+                        "drush.services.yml": "^10 || ^11"
                     }
                 }
             },
@@ -4430,6 +4371,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
@@ -4459,6 +4404,10 @@
                     "homepage": "https://www.drupal.org/user/1321830"
                 },
                 {
+                    "name": "matthand",
+                    "homepage": "https://www.drupal.org/user/171527"
+                },
+                {
                     "name": "mpotter",
                     "homepage": "https://www.drupal.org/user/616192"
                 },
@@ -4471,62 +4420,6 @@
             "homepage": "https://www.drupal.org/project/features",
             "support": {
                 "source": "https://git.drupalcode.org/project/features"
-            }
-        },
-        {
-            "name": "drupal/fico",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/fico.git",
-                "reference": "8.x-3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fico-8.x-3.0.zip",
-                "reference": "8.x-3.0",
-                "shasum": "a1b66b27a4f5672d7ee5f730b35fe4a63ad6f8a5"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "drupal/ds": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.0",
-                    "datestamp": "1643131156",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Erik Seifert",
-                    "homepage": "https://www.drupal.org/u/erik-seifert",
-                    "role": "Creator, Maintainer"
-                },
-                {
-                    "name": "Tim Lepek",
-                    "homepage": "https://www.drupal.org/u/tim-lepek-0",
-                    "role": "Creator, Maintainer"
-                },
-                {
-                    "name": "d70rr3s",
-                    "homepage": "https://www.drupal.org/user/3183487"
-                }
-            ],
-            "description": "Adds conditional functionality to fields.",
-            "homepage": "https://drupal.org/project/fico",
-            "support": {
-                "source": "https://git.drupalcode.org/project/fico",
-                "issues": "https://drupal.org/project/issues/fico"
             }
         },
         {
@@ -7011,55 +6904,6 @@
             }
         },
         {
-            "name": "drupal/view_mode_switch",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/view_mode_switch.git",
-                "reference": "2.0.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/view_mode_switch-2.0.5.zip",
-                "reference": "2.0.5",
-                "shasum": "54aa4faee1ae834a15adbe9b16eb1443e7659ea6"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10"
-            },
-            "require-dev": {
-                "drupal/diff": "^1.1",
-                "drupal/paragraphs": "^1.12"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.5",
-                    "datestamp": "1676027872",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "hctom",
-                    "homepage": "https://www.drupal.org/user/112790"
-                }
-            ],
-            "description": "Provides a field type that allows editors to switch view modes.",
-            "homepage": "https://drupal.org/project/view_mode_switch",
-            "support": {
-                "source": "https://git.drupalcode.org/project/view_mode_switch",
-                "issues": "https://drupal.org/project/view_mode_switch"
-            }
-        },
-        {
             "name": "drupal/views_bulk_edit",
             "version": "2.8.0",
             "source": {
@@ -8489,16 +8333,6 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/facets_year_range.git",
-                "reference": "main"
-            },
-            "type": "drupal-module"
-        },
-        {
-            "name": "islandora_lite/fico_taxonomy_condition",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/digitalutsc/fico_taxonomy_condition",
                 "reference": "main"
             },
             "type": "drupal-module"
@@ -15383,16 +15217,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "74780ccf8c19d6acb8d65c5f39cd72110e132bbd"
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/74780ccf8c19d6acb8d65c5f39cd72110e132bbd",
-                "reference": "74780ccf8c19d6acb8d65c5f39cd72110e132bbd",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/90d087e988ff194065333d16bc5cf649872d9cdb",
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb",
                 "shasum": ""
             },
             "require": {
@@ -15439,7 +15273,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.5"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.6"
             },
             "funding": [
                 {
@@ -15455,7 +15289,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-11T08:27:00+00:00"
+            "time": "2023-06-06T12:02:59+00:00"
         },
         {
             "name": "composer/composer",
@@ -18827,7 +18661,7 @@
         "digitalutsc/private_files_adapter": 20,
         "drupal/advancedqueue": 5,
         "drupal/advancedqueue_runner": 15,
-        "drupal/archive_list_contents": 20,
+        "drupal/archive_list_contents": 10,
         "drupal/citation_select": 10,
         "drupal/context": 10,
         "drupal/csvfile_formatter": 20,
@@ -18851,7 +18685,6 @@
         "islandora/advanced_search": 20,
         "islandora_lite/ableplayer_extend": 20,
         "islandora_lite/facets_year_range": 20,
-        "islandora_lite/fico_taxonomy_condition": 20,
         "islandora_lite/iiif_view_manifest": 20,
         "islandora_lite/islandora_breadcrumbs": 20,
         "islandora_lite/islandora_mirador": 20,
@@ -18867,5 +18700,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
