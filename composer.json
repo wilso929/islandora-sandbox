@@ -56,12 +56,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/ableplayer_extend",
-              "version": "dev-main",
+              "version": "1.0.0-beta1",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/ableplayer_extend",
                 "type": "git",
-                "reference":"main"
+                "reference":"1.0.0-beta1"
               }
             }
         },
@@ -75,32 +75,6 @@
                 "url": "https://github.com/digitalutsc/iiif_view_manifest",
                 "type": "git",
                 "reference":"drupal_view"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "islandora_lite/media_thumbnails_tiff",
-              "version": "dev-master",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/media_thumbnails_tiff",
-                "type": "git",
-                "reference":"master"
-              }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-              "name": "islandora_lite/media_thumbnails_jp2",
-              "version": "dev-master",
-              "type": "drupal-module",
-              "source": {
-                "url": "https://github.com/digitalutsc/media_thumbnails_jp2",
-                "type": "git",
-                "reference":"main"
               }
             }
         },
@@ -146,12 +120,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/facets_year_range",
-              "version": "dev-main",
+              "version": "1.0.0-beta1",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/facets_year_range.git",
                 "type": "git",
-                "reference":"main"
+                "reference":"1.0.0-beta1"
               }
             }
         },
@@ -257,6 +231,8 @@
         "drupal/media_thumbnails": "^1.0@beta",
         "drupal/media_thumbnails_pdf": "^2.0@beta",
         "drupal/media_thumbnails_video": "^2.0",
+        "drupal/media_thumbnails_jp2":  "^1.0@beta",
+        "drupal/media_thumbnails_tiff": "^1.0@beta",
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_source_csv": "^3.4",
         "drupal/pathauto": "^1.11",
@@ -283,17 +259,15 @@
         "islandora/controlled_access_terms": "^2",
         "islandora/jsonld": "2.1.0",
         "islandora/openseadragon": "^2.0",
-        "islandora_lite/ableplayer_extend": "dev-main",
-        "islandora_lite/facets_year_range": "dev-main",
+        "islandora/views_nested_details": "^1.0.0-beta",
+        "islandora_lite/ableplayer_extend": "^1.0.0-beta",
+        "islandora_lite/facets_year_range": "^1.0.0-beta",
         "islandora_lite/iiif_view_manifest": "dev-drupal_view",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
         "islandora_lite/islandora_object_thumbnail": "dev-main",
         "islandora_lite/islandora_search_processor": "dev-main",
         "islandora_lite/islandora_site_name": "dev-main",
-        "islandora_lite/media_thumbnails_jp2": "dev-master",
-        "islandora_lite/media_thumbnails_tiff": "dev-master",
-        "islandora/views_nested_details": "^1.0.0-beta",
         "library/masonry": "3.3.2",
         "library/pdf.js": "2.10.377",
         "library/timeline3": "3.8.18",
