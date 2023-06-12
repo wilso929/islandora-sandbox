@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "572b267ff3a71433fa016528eb312d7f",
+    "content-hash": "5f7cdc856afe13a8e2cde52c4587ea6c",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -8690,11 +8690,11 @@
         },
         {
             "name": "islandora_lite/iiif_view_manifest",
-            "version": "dev-drupal_view",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/iiif_view_manifest",
-                "reference": "drupal_view"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
@@ -8710,51 +8710,51 @@
         },
         {
             "name": "islandora_lite/islandora_mirador",
-            "version": "dev-drupal_mirador",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_mirador.git",
-                "reference": "drupal_mirador"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
         {
             "name": "islandora_lite/islandora_object_thumbnail",
-            "version": "dev-main",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_object_thumbnail.git",
-                "reference": "main"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
         {
             "name": "islandora_lite/islandora_search_processor",
-            "version": "dev-main",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_search_processor.git",
-                "reference": "main"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
         {
             "name": "islandora_lite/islandora_site_name",
-            "version": "dev-main",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_site_name.git",
-                "reference": "main"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
         {
             "name": "islandora_lite/termwithuri_condition",
-            "version": "dev-main",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/termwithuri_condition.git",
-                "reference": "main"
+                "reference": "1.0.0-beta1"
             },
             "type": "drupal-module"
         },
@@ -18940,14 +18940,8 @@
         "drupal/views_timelinejs": 10,
         "drupal/ableplayer": 15,
         "islandora/advanced_search": 20,
-        "islandora_lite/iiif_view_manifest": 20,
         "islandora_lite/islandora_breadcrumbs": 20,
-        "islandora_lite/islandora_mirador": 20,
-        "islandora_lite/islandora_object_thumbnail": 20,
-        "islandora_lite/islandora_search_processor": 20,
-        "islandora_lite/islandora_site_name": 20,
-        "mjordan/islandora_workbench_integration": 20,
-        "islandora_lite/termwithuri_condition": 20
+        "mjordan/islandora_workbench_integration": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
