@@ -255,6 +255,7 @@
         "drupal/ableplayer": "^3.0@alpha",
         "drush/drush": "^10.0.0",
         "easyrdf/easyrdf": "^1.1",
+        "vlucas/phpdotenv": "^2.4",
         "islandora/advanced_search": "dev-contrib",
         "islandora/controlled_access_terms": "^2",
         "islandora/jsonld": "2.1.0",
