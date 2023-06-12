@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da1d14c65eb0bd49cf5ec82ed4368391",
+    "content-hash": "572b267ff3a71433fa016528eb312d7f",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -2804,23 +2804,23 @@
         },
         {
             "name": "drupal/advancedqueue_runner",
-            "version": "2.0.0-alpha2",
+            "version": "2.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/advancedqueue_runner.git",
-                "reference": "2.0.0-alpha2"
+                "reference": "2.0.0-alpha3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/advancedqueue_runner-2.0.0-alpha2.zip",
-                "reference": "2.0.0-alpha2",
-                "shasum": "d2572543ea6f8a02c1a7da2298bf92b43db551a5"
+                "url": "https://ftp.drupal.org/files/projects/advancedqueue_runner-2.0.0-alpha3.zip",
+                "reference": "2.0.0-alpha3",
+                "shasum": "9e33b04ca4196c6d949fef0cf94d57b90690cf11"
             },
             "require": {
-                "drupal/advancedqueue": "*",
+                "drupal/advancedqueue": "^1.0@RC",
                 "drupal/core": "^8.8 || ^9 || ^10",
-                "react/child-process": "*",
-                "react/event-loop": "*"
+                "react/child-process": "^0.6.5",
+                "react/event-loop": "^1.2"
             },
             "require-dev": {
                 "drupal/coder": "*",
@@ -2831,8 +2831,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-alpha2",
-                    "datestamp": "1661253865",
+                    "version": "2.0.0-alpha3",
+                    "datestamp": "1686590929",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -4780,25 +4780,25 @@
         },
         {
             "name": "drupal/fits",
-            "version": "1.1.0-alpha10",
+            "version": "1.1.0-alpha11",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fits.git",
-                "reference": "8.x-1.1-alpha10"
+                "reference": "8.x-1.1-alpha11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fits-8.x-1.1-alpha10.zip",
-                "reference": "8.x-1.1-alpha10",
-                "shasum": "2336c7fb62584ef4518423669284050f118b4f38"
+                "url": "https://ftp.drupal.org/files/projects/fits-8.x-1.1-alpha11.zip",
+                "reference": "8.x-1.1-alpha11",
+                "shasum": "0418391e8da3ed9af887eccec07d670b7f07ba49"
             },
             "require": {
-                "drupal/advancedqueue": "*",
+                "drupal/advancedqueue": "^1.0@RC",
                 "drupal/core": "^8.8 || ^9 || ^10",
-                "drupal/field_permissions": "*",
-                "drupal/file_entity": "*",
-                "drupal/json_field": "*",
-                "mtdowling/jmespath.php": "*"
+                "drupal/field_permissions": "^1.2",
+                "drupal/file_entity": "^2.0@RC",
+                "drupal/json_field": "^1.2",
+                "mtdowling/jmespath.php": "2.6.1"
             },
             "require-dev": {
                 "drupal/coder": "*",
@@ -4809,8 +4809,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.1-alpha10",
-                    "datestamp": "1661255305",
+                    "version": "8.x-1.1-alpha11",
+                    "datestamp": "1686589049",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -7050,24 +7050,24 @@
         },
         {
             "name": "drupal/triplestore_indexer",
-            "version": "1.5.0-beta7",
+            "version": "1.5.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/triplestore_indexer.git",
-                "reference": "8.x-1.5-beta7"
+                "reference": "8.x-1.5-beta8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/triplestore_indexer-8.x-1.5-beta7.zip",
-                "reference": "8.x-1.5-beta7",
-                "shasum": "ef7f349563a20ac3ed42fe704348a458aabc1090"
+                "url": "https://ftp.drupal.org/files/projects/triplestore_indexer-8.x-1.5-beta8.zip",
+                "reference": "8.x-1.5-beta8",
+                "shasum": "e2e89e3bb0bffef51ced2a10c028efed6adc7e50"
             },
             "require": {
-                "drupal/advancedqueue": "*",
+                "drupal/advancedqueue": "^1.0@RC",
                 "drupal/console": "*",
                 "drupal/core": "^8.8 || ^9 || ^10",
-                "drupal/restui": "*",
-                "islandora/jsonld": "*"
+                "drupal/restui": "^1.21",
+                "islandora/jsonld": "^2.1"
             },
             "require-dev": {
                 "drupal/coder": "*",
@@ -7079,8 +7079,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5-beta7",
-                    "datestamp": "1661254175",
+                    "version": "8.x-1.5-beta8",
+                    "datestamp": "1686593825",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -15019,82 +15019,6 @@
             "time": "2021-09-20T19:19:13+00:00"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.6.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141",
-                "reference": "2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.9 || ^7.0 || ^8.0",
-                "symfony/polyfill-ctype": "^1.17"
-            },
-            "require-dev": {
-                "ext-filter": "*",
-                "ext-pcre": "*",
-                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.21"
-            },
-            "suggest": {
-                "ext-filter": "Required to use the boolean validator.",
-                "ext-pcre": "Required to use most of the library."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Dotenv\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk",
-                    "homepage": "https://github.com/GrahamCampbell"
-                },
-                {
-                    "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com",
-                    "homepage": "https://github.com/vlucas"
-                }
-            ],
-            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "keywords": [
-                "dotenv",
-                "env",
-                "environment"
-            ],
-            "support": {
-                "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v2.6.9"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-12-12T22:59:22+00:00"
-        },
-        {
             "name": "webflo/drupal-finder",
             "version": "1.2.2",
             "source": {
@@ -17273,16 +17197,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.8",
+            "version": "9.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "17d621b3aff84d0c8b62539e269e87d8d5baa76e"
+                "reference": "a9aceaf20a682aeacf28d582654a1670d8826778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/17d621b3aff84d0c8b62539e269e87d8d5baa76e",
-                "reference": "17d621b3aff84d0c8b62539e269e87d8d5baa76e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a9aceaf20a682aeacf28d582654a1670d8826778",
+                "reference": "a9aceaf20a682aeacf28d582654a1670d8826778",
                 "shasum": ""
             },
             "require": {
@@ -17356,7 +17280,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.8"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.9"
             },
             "funding": [
                 {
@@ -17372,7 +17296,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-11T05:14:45+00:00"
+            "time": "2023-06-11T06:13:56+00:00"
         },
         {
             "name": "react/promise",
@@ -19029,5 +18953,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
