@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75e7adac5aeebdb8f49471100d420cda",
+    "content-hash": "6f5185200284025ae2105085ddfc9916",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -1698,7 +1698,7 @@
         },
         {
             "name": "digitalutsc/private_files_adapter",
-            "version": "dev-main",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/private_files_adapter.git",
@@ -1716,7 +1716,6 @@
                 "drupal/groupmedia": "^4.0@alpha",
                 "drupal/jwt": "^1.1"
             },
-            "default-branch": true,
             "type": "drupal-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -18989,7 +18988,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "digitalutsc/private_files_adapter": 20,
+        "digitalutsc/private_files_adapter": 10,
+        "drupal/ableplayer": 15,
         "drupal/advancedqueue": 5,
         "drupal/advancedqueue_runner": 15,
         "drupal/archive_list_contents": 10,
@@ -19004,8 +19004,8 @@
         "drupal/jwt": 10,
         "drupal/libraries": 10,
         "drupal/media_thumbnails": 10,
-        "drupal/media_thumbnails_pdf": 10,
         "drupal/media_thumbnails_jp2": 10,
+        "drupal/media_thumbnails_pdf": 10,
         "drupal/media_thumbnails_tiff": 10,
         "drupal/replaywebpage": 10,
         "drupal/rest_oai_pmh": 10,
@@ -19014,7 +19014,6 @@
         "drupal/triplestore_indexer": 10,
         "drupal/views_field_view": 10,
         "drupal/views_timelinejs": 10,
-        "drupal/ableplayer": 15,
         "islandora/advanced_search": 20,
         "mjordan/islandora_workbench_integration": 20
     },
