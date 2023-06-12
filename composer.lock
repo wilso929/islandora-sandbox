@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f5185200284025ae2105085ddfc9916",
+    "content-hash": "7ebad98791d1a39baed322fbef2f9e55",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -8483,11 +8483,11 @@
         },
         {
             "name": "islandora/advanced_search",
-            "version": "dev-contrib",
+            "version": "2.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/advanced_search",
-                "reference": "contrib"
+                "reference": "2.0.0-beta1"
             },
             "type": "drupal-module"
         },
@@ -19014,7 +19014,7 @@
         "drupal/triplestore_indexer": 10,
         "drupal/views_field_view": 10,
         "drupal/views_timelinejs": 10,
-        "islandora/advanced_search": 20,
+        "islandora/advanced_search": 10,
         "mjordan/islandora_workbench_integration": 20
     },
     "prefer-stable": true,
