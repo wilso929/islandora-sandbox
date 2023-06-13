@@ -1,6 +1,6 @@
 _core:
   default_config_hash: L5JWCI2elPSACDHdrzWEaWYduP6w6bjvSEyZ5EY36XY
-server_url: 'https://islandora.traefik.me:8082/bigdata'
+server_url: 'http://islandora.traefik.me:8082/bigdata'
 namespace: ISLANDORA
 method_of_auth: '-1'
 aqj_max_retries: 5
