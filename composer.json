@@ -276,7 +276,8 @@
         "vlucas/phpdotenv": "^2.4",
         "webmozart/path-util": "^2.3",
         "wikimedia/composer-merge-plugin": "^2.0",
-        "zaporylie/composer-drupal-optimizations": "^1.2"
+        "zaporylie/composer-drupal-optimizations": "^1.2",
+        "digitalutsc/islandora_group":"^1.0.0-beta"
     },
     "require-dev": {
         "drupal/core-dev": "^9.5"
