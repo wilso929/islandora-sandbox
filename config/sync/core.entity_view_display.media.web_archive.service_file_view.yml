@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.service_file_view
+    - field.field.media.web_archive.field_access_terms
     - field.field.media.web_archive.field_base_url
     - field.field.media.web_archive.field_media_file
     - field.field.media.web_archive.field_media_use
@@ -42,6 +43,7 @@ content:
     region: content
 hidden:
   created: true
+  field_access_terms: true
   field_media_use: true
   langcode: true
   name: true

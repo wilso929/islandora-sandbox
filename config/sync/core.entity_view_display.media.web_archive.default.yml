@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.web_archive.field_access_terms
     - field.field.media.web_archive.field_base_url
     - field.field.media.web_archive.field_media_file
     - field.field.media.web_archive.field_media_use
@@ -14,6 +15,14 @@ targetEntityType: media
 bundle: web_archive
 mode: default
 content:
+  field_access_terms:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_media_file:
     type: file_default
     label: visually_hidden

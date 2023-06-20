@@ -34,6 +34,7 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   facets: 0
   facets_summary: 0
   facets_year_range: 0
@@ -47,17 +48,23 @@ module:
   filemime: 0
   filter: 0
   fits: 0
+  flexible_permissions: 0
   fontawesome: 0
   geocoder: 0
   geocoder_field: 0
   geolocation: 0
   geolocation_leaflet: 0
   geolocation_search_api: 0
+  gnode: 0
+  group: 0
+  group_permissions: 0
+  groupmedia: 0
   hal: 0
   help: 0
   history: 0
   image: 0
   islandora_breadcrumbs: 0
+  islandora_group: 0
   islandora_iiif: 0
   islandora_mirador: 0
   islandora_object_thumbnail: 0
@@ -119,6 +126,7 @@ module:
   triplestore_indexer: 0
   update: 0
   user: 0
+  variationcache: 0
   views_bulk_operations: 0
   views_field_view: 0
   views_flipped_table: 0

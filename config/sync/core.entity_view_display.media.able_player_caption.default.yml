@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.able_player_caption.ableplayer_caption
+    - field.field.media.able_player_caption.field_access_terms
     - image.style.thumbnail
     - media.type.able_player_caption
   module:
@@ -32,6 +33,14 @@ content:
       timezone: ''
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_access_terms:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
     region: content
   name:
     type: string
