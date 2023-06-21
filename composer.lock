@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42c8d8eb3d322deba5795267503ecba4",
+    "content-hash": "b402881377e91f00d783e655a250d988",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -1695,6 +1695,52 @@
                 "source": "https://github.com/dflydev/dflydev-placeholder-resolver/tree/v1.0.3"
             },
             "time": "2021-12-03T16:48:58+00:00"
+        },
+        {
+            "name": "digitalutsc/group_solr",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitalutsc/group_solr.git",
+                "reference": "49f0259ce1144c8a7ba9fe449c67dc281d338edf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitalutsc/group_solr/zipball/49f0259ce1144c8a7ba9fe449c67dc281d338edf",
+                "reference": "49f0259ce1144c8a7ba9fe449c67dc281d338edf",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/group": "^3.0",
+                "drupal/group_permissions": "^2.0@alpha",
+                "drupal/groupmedia": "^4.0@alpha",
+                "drupal/search_api_solr": "^4.2"
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "The University of Toronto Scarborough Library's Digital Scholarship Unit (DSU)",
+                    "email": "digitalscholarship@utsc.utoronto.ca",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Kyle Huynh",
+                    "email": "kyle.huynh205@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "This module add Solr indexed field(s) which is determined access control with Group module for an indexed item to be public or private for annonymous users",
+            "homepage": "https://github.com/digitalutsc/group_solr",
+            "support": {
+                "issues": "https://github.com/digitalutsc/group_solr/issues",
+                "source": "https://github.com/digitalutsc/group_solr"
+            },
+            "time": "2023-05-10T13:25:58+00:00"
         },
         {
             "name": "digitalutsc/islandora_group",
@@ -17029,6 +17075,68 @@
             "time": "2023-05-02T09:19:37+00:00"
         },
         {
+            "name": "phpstan/phpstan",
+            "version": "1.10.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
+                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-06-20T12:07:40+00:00"
+        },
+        {
             "name": "phpunit/php-code-coverage",
             "version": "9.2.26",
             "source": {
@@ -19097,5 +19205,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -5,13 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_coordinates
     - field.storage.node.field_description
-    - field.storage.node.field_edtf_date
-    - field.storage.node.field_edtf_date_created
-    - field.storage.node.field_edtf_date_issued
-    - field.storage.node.field_member_of
-    - field.storage.node.field_part_of
-    - field.storage.node.field_tags
-    - field.storage.node.field_weight
     - field.storage.node.field_genre
     - field.storage.node.field_geographic_subject
     - field.storage.node.field_identifier
@@ -20,11 +13,18 @@ dependencies:
     - field.storage.node.field_linked_agent
     - field.storage.media.field_media_image
     - field.storage.node.field_islandora_object_media
+    - field.storage.node.field_member_of
+    - field.storage.node.field_part_of
     - field.storage.node.field_physical_form
     - field.storage.node.field_resource_type
     - field.storage.node.field_subject
     - field.storage.node.field_subjects_name
+    - field.storage.node.field_tags
     - field.storage.node.field_temporal_subject
+    - field.storage.node.field_weight
+    - field.storage.node.field_edtf_date
+    - field.storage.node.field_edtf_date_created
+    - field.storage.node.field_edtf_date_issued
     - search_api.server.default_solr_server
     - core.entity_view_mode.node.search_index
   module:
@@ -37,6 +37,7 @@ dependencies:
     - file
     - search_api
     - controlled_access_terms
+    - group_solr
     - islandora_object_thumbnail
     - islandora_search_processor
     - islandora_site_name
@@ -203,6 +204,10 @@ field_settings:
         - field.storage.node.field_geographic_subject
       module:
         - taxonomy
+  group_access_control:
+    label: 'Group: Access Control'
+    property_path: search_api_group_access_control
+    type: string
   identifier:
     label: Identifier
     datasource_id: 'entity:node'
@@ -478,6 +483,7 @@ processor_settings:
     weights:
       preprocess_index: -10
   entity_type: {  }
+  group_access_control: {  }
   highlight:
     weights:
       postprocess_query: 0
