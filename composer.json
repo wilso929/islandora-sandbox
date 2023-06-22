@@ -366,6 +366,9 @@
             "drupal/ableplayer": {
               "ableplayer_fixentitydisplayissue.patch": "https://raw.githubusercontent.com/digitalutsc/islandora-sandbox/config_sync_context/assets/patches/ableplayer_fixentitydisplayissue.patch"
             }
+            "islandora/openseadragon": {
+              "openseadragon.authentication.patch": "https://raw.githubusercontent.com/digitalutsc/private_files_adapter/main/scripts/openseadragon.authentication.patch"
+            }
         },
         "merge-plugin": {
             "include": [
