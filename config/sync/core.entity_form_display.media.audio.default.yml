@@ -8,6 +8,7 @@ dependencies:
     - field.field.media.audio.ableplayer_poster_image
     - field.field.media.audio.ableplayer_sign_language
     - field.field.media.audio.field_ableplayer_media_caption
+    - field.field.media.audio.field_access_terms
     - field.field.media.audio.field_media_audio_file
     - field.field.media.audio.field_media_use
     - media.type.audio
@@ -28,6 +29,16 @@ content:
   field_ableplayer_media_caption:
     type: entity_reference_autocomplete
     weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_access_terms:
+    type: entity_reference_autocomplete
+    weight: 9
     region: content
     settings:
       match_operator: CONTAINS

@@ -29,6 +29,7 @@ content:
 hidden:
   ableplayer_audio_description: true
   created: true
+  field_access_terms: true
   field_media_use: true
   langcode: true
   name: true

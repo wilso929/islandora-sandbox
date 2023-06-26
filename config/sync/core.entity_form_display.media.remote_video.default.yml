@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.remote_video.ableplayer_audio_description
+    - field.field.media.remote_video.field_access_terms
     - field.field.media.remote_video.field_media_oembed_video
     - field.field.media.remote_video.field_media_use
     - media.type.remote_video
@@ -28,6 +29,16 @@ content:
     weight: 5
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_access_terms:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_media_oembed_video:
     type: oembed_textfield

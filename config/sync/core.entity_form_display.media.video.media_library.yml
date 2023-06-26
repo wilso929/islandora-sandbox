@@ -61,6 +61,7 @@ hidden:
   ableplayer_poster_image: true
   ableplayer_sign_language: true
   created: true
+  field_access_terms: true
   name: true
   path: true
   status: true
