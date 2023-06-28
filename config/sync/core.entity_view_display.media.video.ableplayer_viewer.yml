@@ -43,6 +43,7 @@ hidden:
   ableplayer_sign_language: true
   created: true
   field_ableplayer_media_caption: true
+  field_access_terms: true
   field_media_use: true
   langcode: true
   name: true

@@ -198,6 +198,8 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "digitalutsc/group_solr": "dev-main",
+        "digitalutsc/islandora_group": "^1.0.0-beta",
         "digitalutsc/private_files_adapter": "^1.0.0@beta",
         "drupal/ableplayer": "^3.0@alpha",
         "drupal/admin_toolbar": "^3.0",
@@ -279,7 +281,8 @@
         "zaporylie/composer-drupal-optimizations": "^1.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.5"
+        "drupal/core-dev": "^9.5",
+        "phpstan/phpstan": "^1.10"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -362,6 +365,12 @@
             },
             "drupal/ableplayer": {
               "ableplayer_fixentitydisplayissue.patch": "https://raw.githubusercontent.com/digitalutsc/islandora-sandbox/config_sync_context/assets/patches/ableplayer_fixentitydisplayissue.patch"
+            },
+            "islandora/openseadragon": {
+              "openseadragon.authentication.patch": "https://raw.githubusercontent.com/digitalutsc/private_files_adapter/main/scripts/openseadragon.authentication.patch"
+            },
+            "drupal/file_entity": {
+              "override_file_access.patch": "https://raw.githubusercontent.com/digitalutsc/override_permission_file_entity/main/override_file_access.patch"
             }
         },
         "merge-plugin": {

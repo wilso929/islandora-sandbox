@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.islandora_object.field_access_terms
     - field.field.node.islandora_object.field_alternative_title
     - field.field.node.islandora_object.field_archival_identifier
     - field.field.node.islandora_object.field_cataloguing_language
@@ -157,6 +158,7 @@ third_party_settings:
         - field_exhibit_weight
         - field_content_warning
         - field_viewer_override
+        - field_access_terms
       label: System
       region: content
       parent_name: group_tabs_view
@@ -195,6 +197,16 @@ content:
     weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_access_terms:
+    type: entity_reference_autocomplete
+    weight: 53
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_alternative_title:
     type: string_textfield

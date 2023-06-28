@@ -43,6 +43,7 @@ content:
 hidden:
   ableplayer_audio_description: true
   created: true
+  field_access_terms: true
   name: true
   path: true
   status: true
