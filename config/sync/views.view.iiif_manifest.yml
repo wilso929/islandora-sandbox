@@ -7,8 +7,10 @@ dependencies:
   module:
     - image
     - islandora_iiif
+    - media
     - node
     - rest
+    - taxonomy
     - user
 _core:
   default_config_hash: 4wnywAGOPTWBpscHA6dMWK-3orW1HsfSXjbUgbws8Qc
@@ -230,7 +232,7 @@ display:
         options:
           query_comment: ''
           disable_sql_rewrite: false
-          distinct: false
+          distinct: true
           replica: false
           query_tags: {  }
       relationships:
