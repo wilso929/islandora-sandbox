@@ -5,18 +5,17 @@ site_path=/var/www/drupal
 drush="$site_path"/vendor/drush/drush/drush
 
 # configure search_api_solr_module
-solr_host=dsu-fedora.utsc.utoronto.ca
-solr_core=multisite
-cantaloupe_url=https://memory.digital.utsc.utoronto.ca/iiif-server/iiif/2
+solr_host=http://islandora.traefik.me:8983/
+solr_core=ISLANDORA
+cantaloupe_url=https://islandora.traefik.me/cantaloupe
 
 # configure blazegraph
-blazegraph_url=http://dsu.utsc.utoronto.ca:8080/bigdata
+blazegraph_url=https://islandora.traefik.me:8082/bigdata
 blazegraph_namespace=collection3-D9
 
 # configure fits
-fits_mode="local"
-fits_url=/opt/fits-1.4.1/fits.sh
-fits_config_var="fits-path"
+fits_mode="remote"
+fits-server-url=http://fits:8080/fits/examine
 
 # configure Solr
 "$drush" -y config-set search_api.server.default_solr_server backend_config.connector_config.scheme https
