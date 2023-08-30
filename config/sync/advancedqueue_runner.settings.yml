@@ -11,6 +11,8 @@ queues:
   - ocr_extract_text
 interval: 5
 started_at: 1684843593
+limit-jobs-running: 5
+enforce-limit-jobs-all-queues: null
 advancedqueue_runner: null
 runner-pid: null
 mode: limit
