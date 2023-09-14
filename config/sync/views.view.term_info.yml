@@ -103,7 +103,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<p>Learn more about <a href=\"/taxonomy/term/{{ tid }}\">{{ name__value }}</a></p>\r\n"
+            text: "<!-- <p>Learn more about <a href=\"/taxonomy/term/{{ tid }}\">{{ name__value }}</a></p> -->\r\n<h1>{{ name__value }}</h1>\r\n"
             make_link: false
             path: ''
             absolute: false
