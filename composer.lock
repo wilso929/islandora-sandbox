@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b001ad98336e33991a577e13eb1d701e",
+    "content-hash": "7c736edeb9213632c3de38606d297f75",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -3061,17 +3061,17 @@
         },
         {
             "name": "drupal/archive_list_contents",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/archive_list_contents.git",
-                "reference": "1.0.0-beta1"
+                "reference": "1.0.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/archive_list_contents-1.0.0-beta1.zip",
-                "reference": "1.0.0-beta1",
-                "shasum": "7147685fea40b5a626b1018eca9c09648812a662"
+                "url": "https://ftp.drupal.org/files/projects/archive_list_contents-1.0.0-beta2.zip",
+                "reference": "1.0.0-beta2",
+                "shasum": "94b44ccdae5679131f1b3f71dd7d7b8c98305935"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -3079,8 +3079,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-beta1",
-                    "datestamp": "1686081904",
+                    "version": "1.0.0-beta2",
+                    "datestamp": "1696424586",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -8878,6 +8878,10 @@
                 "url": "https://github.com/Islandora-Labs/views_nested_details",
                 "reference": "1.0.0-beta1"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/Islandora-Labs/views_nested_details/archive/refs/tags/1.1.0.zip"
+            },
             "type": "drupal-module"
         },
         {
@@ -8887,6 +8891,10 @@
                 "type": "git",
                 "url": "https://github.com/digitalutsc/ableplayer_extend",
                 "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/ableplayer_extend/archive/refs/tags/1.0.0-beta1.zip"
             },
             "type": "drupal-module"
         },
@@ -8898,6 +8906,10 @@
                 "url": "https://github.com/digitalutsc/facets_year_range.git",
                 "reference": "1.0.0-beta1"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/facets_year_range/archive/refs/tags/1.0.0-beta1.zip"
+            },
             "type": "drupal-module"
         },
         {
@@ -8908,15 +8920,23 @@
                 "url": "https://github.com/digitalutsc/iiif_view_manifest",
                 "reference": "1.0.0-beta1"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/iiif_view_manifest/archive/refs/tags/1.0.0-beta1.zip"
+            },
             "type": "drupal-module"
         },
         {
             "name": "islandora_lite/islandora_breadcrumbs",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_breadcrumbs.git",
-                "reference": "1.0.0-beta2"
+                "reference": "1.0.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/islandora_breadcrumbs/archive/refs/tags/1.0.0-beta3.zip"
             },
             "type": "drupal-module"
         },
@@ -8928,6 +8948,10 @@
                 "url": "https://github.com/digitalutsc/islandora_mirador.git",
                 "reference": "1.0.0-beta2"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/islandora_mirador/archive/refs/tags/1.0.0-beta2.zip"
+            },
             "type": "drupal-module"
         },
         {
@@ -8937,6 +8961,10 @@
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_object_thumbnail.git",
                 "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/islandora_object_thumbnail/archive/refs/tags/1.0.0-beta1.zip"
             },
             "type": "drupal-module"
         },
@@ -8948,6 +8976,10 @@
                 "url": "https://github.com/digitalutsc/islandora_search_processor.git",
                 "reference": "1.0.0-beta1"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/islandora_search_processor/archive/refs/tags/1.0.0-beta1.zip"
+            },
             "type": "drupal-module"
         },
         {
@@ -8958,6 +8990,10 @@
                 "url": "https://github.com/digitalutsc/islandora_site_name.git",
                 "reference": "1.0.0-beta1"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/islandora_site_name/archive/refs/tags/1.0.0-beta1.zip"
+            },
             "type": "drupal-module"
         },
         {
@@ -8967,6 +9003,10 @@
                 "type": "git",
                 "url": "https://github.com/digitalutsc/termwithuri_condition.git",
                 "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/digitalutsc/termwithuri_condition/archive/refs/tags/1.0.0-beta1.zip"
             },
             "type": "drupal-module"
         },
@@ -17227,16 +17267,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.37",
+            "version": "1.10.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "058ba07e92f744d4dcf6061ae75283d0c6456f2e"
+                "reference": "5302bb402c57f00fb3c2c015bac86e0827e4b691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/058ba07e92f744d4dcf6061ae75283d0c6456f2e",
-                "reference": "058ba07e92f744d4dcf6061ae75283d0c6456f2e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5302bb402c57f00fb3c2c015bac86e0827e4b691",
+                "reference": "5302bb402c57f00fb3c2c015bac86e0827e4b691",
                 "shasum": ""
             },
             "require": {
@@ -17285,7 +17325,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-02T16:18:37+00:00"
+            "time": "2023-10-06T14:19:14+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
