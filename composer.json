@@ -240,7 +240,7 @@
         "drupal/context": "^4.0@beta",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-recommended": "^9.5",
-        "drupal/csvfile_formatter": "1.0.x-dev@dev",
+        "drupal/csvfile_formatter": "^1.0",
         "drupal/devel": "^4.1",
         "drupal/facets": "^2.0",
         "drupal/features": "^3.11",
