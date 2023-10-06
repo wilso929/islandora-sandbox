@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c736edeb9213632c3de38606d297f75",
+    "content-hash": "736e0e966f10e77b6114394cde0f6eee",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -4170,26 +4170,29 @@
         },
         {
             "name": "drupal/csvfile_formatter",
-            "version": "dev-1.0.x",
+            "version": "1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/csvfile_formatter.git",
-                "reference": "4d4af44edea49f50554a70864aa649fe5cc3c004"
+                "reference": "1.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/csvfile_formatter-1.0.18.zip",
+                "reference": "1.0.18",
+                "shasum": "7ac709af8ef71cd9c4e10ed89bdff34505493349"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.0.x": "1.0.x-dev"
-                },
                 "drupal": {
-                    "version": "1.0.17+1-dev",
-                    "datestamp": "1685631072",
+                    "version": "1.0.18",
+                    "datestamp": "1685631345",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -19372,7 +19375,6 @@
         "drupal/archive_list_contents": 10,
         "drupal/citation_select": 10,
         "drupal/context": 10,
-        "drupal/csvfile_formatter": 20,
         "drupal/file_entity": 10,
         "drupal/filter_perms": 15,
         "drupal/fits": 15,
