@@ -1,3 +1,16 @@
+diff --git a/better_social_sharing_buttons.info.yml b/better_social_sharing_buttons.info.yml
+index f792854..15f416c 100644
+--- a/better_social_sharing_buttons.info.yml
++++ b/better_social_sharing_buttons.info.yml
+@@ -3,3 +3,8 @@ type: module
+ description: 'Provides a settings page, a field, a paragraph, and a block for social sharing buttons'
+ configure: better_social_sharing_buttons.config
+ core_version_requirement: '^9.3 || ^10'
++
++# Information added by Drupal.org packaging script on 2023-09-15
++version: '4.0.7'
++project: 'better_social_sharing_buttons'
++datestamp: 1694802523
 diff --git a/better_social_sharing_buttons.libraries.yml b/better_social_sharing_buttons.libraries.yml
 index 363662d..0da8a1e 100644
 --- a/better_social_sharing_buttons.libraries.yml
@@ -17,18 +30,18 @@ index 363662d..0da8a1e 100644
 +    js/print.js: {}
 \ No newline at end of file
 diff --git a/better_social_sharing_buttons.module b/better_social_sharing_buttons.module
-index fbe8f4a..2daf472 100644
+index ebb7764..6e3e23f 100644
 --- a/better_social_sharing_buttons.module
 +++ b/better_social_sharing_buttons.module
-@@ -10,6 +10,7 @@ use Drupal\Core\Url;
+@@ -10,6 +10,7 @@ use Drupal\Core\Entity\EntityInterface;
+ use Drupal\Core\Routing\RouteMatchInterface;
+ use Drupal\Core\Url;
  use Drupal\node\Entity\NodeType;
- use Drupal\Core\Entity\EntityInterface;
- use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 +use Drupal\node\NodeInterface;
  
  /**
   * Implements hook_theme().
-@@ -90,6 +91,24 @@ function better_social_sharing_buttons_preprocess_better_social_sharing_buttons(
+@@ -91,6 +92,24 @@ function better_social_sharing_buttons_preprocess_better_social_sharing_buttons(
      $icon_set = \Drupal::config('better_social_sharing_buttons.settings')->get('iconset');
    }
    $variables['social_buttons_sprite'] = Url::fromUri('internal:/' . \Drupal::service('extension.list.module')->getPath('better_social_sharing_buttons') . '/assets/dist/sprites/' . $icon_set . '.svg')->toString();
@@ -92,10 +105,10 @@ index 9044eee..a0d70d8 100644
 -})(Drupal);
 +})(Drupal, drupalSettings);
 diff --git a/src/Form/BetterSocialSharingButtonsForm.php b/src/Form/BetterSocialSharingButtonsForm.php
-index 46d1be3..a906c90 100644
+index 0e69bcf..2ee5bd3 100644
 --- a/src/Form/BetterSocialSharingButtonsForm.php
 +++ b/src/Form/BetterSocialSharingButtonsForm.php
-@@ -134,6 +134,14 @@ class BetterSocialSharingButtonsForm extends ConfigFormBase {
+@@ -133,6 +133,14 @@ class BetterSocialSharingButtonsForm extends ConfigFormBase {
        '#default_value' => $config->get('node_field') ?: FALSE,
      ];
  
@@ -110,7 +123,7 @@ index 46d1be3..a906c90 100644
      return parent::buildForm($form, $form_state);
    }
  
-@@ -149,6 +157,7 @@ class BetterSocialSharingButtonsForm extends ConfigFormBase {
+@@ -148,6 +156,7 @@ class BetterSocialSharingButtonsForm extends ConfigFormBase {
      $config->set('print_css', $form_state->getValue('print_css'));
      $config->set('iconset', $form_state->getValue('iconset'));
      $config->set('node_field', $form_state->getValue('node_field'));
@@ -119,7 +132,7 @@ index 46d1be3..a906c90 100644
      $this->messenger()->addMessage($this->t("Configuration saved!"));
    }
 diff --git a/templates/better-social-sharing-buttons.html.twig b/templates/better-social-sharing-buttons.html.twig
-index 2bdad5c..fd9ce65 100644
+index 1aab929..a0c7079 100644
 --- a/templates/better-social-sharing-buttons.html.twig
 +++ b/templates/better-social-sharing-buttons.html.twig
 @@ -1,12 +1,17 @@
@@ -143,12 +156,12 @@ index 2bdad5c..fd9ce65 100644
              </svg>
 @@ -15,7 +20,7 @@
  
-     {# Twitter share button #}
-     {% if items.services.twitter %}
--        <a href="https://twitter.com/intent/tweet?text={{ items.title }}+{{ items.page_url }}" target="_blank" title="{{ 'Share to'|t }} Twitter" aria-label="{{ 'Share to'|t }} Twitter" class="social-sharing-buttons__button share-twitter" rel="noopener">
-+        <a href="https://twitter.com/intent/tweet?text={{ items.title }}+{{ url }}" target="_blank" title="{{ 'Share to'|t }} Twitter" aria-label="{{ 'Share to'|t }} Twitter" class="social-sharing-buttons__button share-twitter" rel="noopener">
+     {# X share button #}
+     {% if items.services.x %}
+-        <a href="https://twitter.com/intent/tweet?text={{ items.title }}+{{ items.page_url }}" target="_blank" title="{{ 'Share to'|t }} X" aria-label="{{ 'Share to'|t }} X" class="social-sharing-buttons__button share-x" rel="noopener">
++        <a href="https://twitter.com/intent/tweet?text={{ items.title }}+{{ url }}" target="_blank" title="{{ 'Share to'|t }} X" aria-label="{{ 'Share to'|t }} X" class="social-sharing-buttons__button share-x" rel="noopener">
              <svg width="{{ items.width }}" height="{{ items.width }}" style="border-radius:{{ items.radius }};">
-                 <use href="{{ social_buttons_sprite }}#twitter" />
+                 <use href="{{ social_buttons_sprite }}#x" />
              </svg>
 @@ -24,7 +29,7 @@
  
@@ -197,15 +210,6 @@ index 2bdad5c..fd9ce65 100644
              </svg>
 @@ -69,7 +74,7 @@
  
-     {# Digg share button #}
-     {% if items.services.digg %}
--        <a href="https://www.digg.com/submit?phase=2&amp;url={{ items.page_url }}&amp;title={{ items.title }}" target="_blank" title="{{ 'Share to'|t }} Digg" aria-label="{{ 'Share to'|t }} Digg" class="social-sharing-buttons__button share-digg" rel="noopener">
-+        <a href="https://www.digg.com/submit?phase=2&amp;url={{ url }}&amp;title={{ items.title }}" target="_blank" title="{{ 'Share to'|t }} Digg" aria-label="{{ 'Share to'|t }} Digg" class="social-sharing-buttons__button share-digg" rel="noopener">
-             <svg width="{{ items.width }}" height="{{ items.width }}" style="border-radius:{{ items.radius }};">
-                 <use href="{{ social_buttons_sprite }}#digg" />
-             </svg>
-@@ -78,7 +83,7 @@
- 
      {# Tumblr share button #}
      {% if items.services.tumblr %}
 -        <a href="https://www.tumblr.com/share?v=3&amp;u={{ items.page_url }}&amp;t={{ items.title }}" target="_blank" title="{{ 'Share to'|t }} Tumblr" aria-label="{{ 'Share to'|t }} Tumblr" class="social-sharing-buttons__button share-tumblr" rel="noopener">
@@ -213,7 +217,7 @@ index 2bdad5c..fd9ce65 100644
              <svg width="{{ items.width }}" height="{{ items.width }}" style="border-radius:{{ items.radius }};">
                  <use href="{{ social_buttons_sprite }}#tumblr" />
              </svg>
-@@ -87,7 +92,7 @@
+@@ -78,7 +83,7 @@
  
      {# Reddit share button #}
      {% if items.services.reddit %}
@@ -222,7 +226,7 @@ index 2bdad5c..fd9ce65 100644
              <svg width="{{ items.width }}" height="{{ items.width }}" style="border-radius:{{ items.radius }};">
                  <use href="{{ social_buttons_sprite }}#reddit" />
              </svg>
-@@ -96,7 +101,7 @@
+@@ -87,7 +92,7 @@
  
      {# Evernote share button #}
      {% if items.services.evernote %}
@@ -231,7 +235,7 @@ index 2bdad5c..fd9ce65 100644
              <svg width="{{ items.width }}" height="{{ items.width }}" style="border-radius:{{ items.radius }};">
                  <use href="{{ social_buttons_sprite }}#evernote" />
              </svg>
-@@ -105,7 +110,7 @@
+@@ -96,7 +101,7 @@
  
      {# Email share button #}
      {% if items.services.email %}
