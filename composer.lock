@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dc1e4678afb07a2b38fdd902b6d9322",
+    "content-hash": "ea4589273e8aa80def1a2cf4419df5bd",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -6591,23 +6591,23 @@
         },
         {
             "name": "drupal/triplestore_indexer",
-            "version": "1.5.0-beta9",
+            "version": "1.5.0-beta10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/triplestore_indexer.git",
-                "reference": "8.x-1.5-beta9"
+                "reference": "8.x-1.5-beta10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/triplestore_indexer-8.x-1.5-beta9.zip",
-                "reference": "8.x-1.5-beta9",
-                "shasum": "711c57e2b44e9b03a4fe19e8f15078e4361074a0"
+                "url": "https://ftp.drupal.org/files/projects/triplestore_indexer-8.x-1.5-beta10.zip",
+                "reference": "8.x-1.5-beta10",
+                "shasum": "2c2db58383da732f0765f5db393c15339c47efef"
             },
             "require": {
                 "drupal/advancedqueue": "^1.0@RC",
                 "drupal/core": "^8.8 || ^9 || ^10",
                 "drupal/restui": "^1.21",
-                "islandora/jsonld": "^2.1"
+                "islandora/jsonld": "^3.0"
             },
             "require-dev": {
                 "drupal/coder": "*",
@@ -6619,8 +6619,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5-beta9",
-                    "datestamp": "1696956135",
+                    "version": "8.x-1.5-beta10",
+                    "datestamp": "1696969898",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -8057,22 +8057,22 @@
         },
         {
             "name": "islandora/jsonld",
-            "version": "2.2.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/jsonld.git",
-                "reference": "21761dd438f766f1e8bc379d0e3a9a5aed80d012"
+                "reference": "55800b6bde25b8ee6431e8bc36f7affcdae3f182"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/jsonld/zipball/21761dd438f766f1e8bc379d0e3a9a5aed80d012",
-                "reference": "21761dd438f766f1e8bc379d0e3a9a5aed80d012",
+                "url": "https://api.github.com/repos/Islandora/jsonld/zipball/55800b6bde25b8ee6431e8bc36f7affcdae3f182",
+                "reference": "55800b6bde25b8ee6431e8bc36f7affcdae3f182",
                 "shasum": ""
             },
             "require": {
+                "drupal/core": "^10",
                 "drupal/hal": "^1||^2",
-                "drupal/rdf": "^2.1",
-                "php": ">=7.4"
+                "drupal/rdf": "^2.1"
             },
             "require-dev": {
                 "drupal/coder": "*",
@@ -8106,9 +8106,9 @@
             "homepage": "https://github.com/Islandora/jsonld",
             "support": {
                 "issues": "https://github.com/Islandora/documentation/issues",
-                "source": "https://github.com/Islandora/jsonld/tree/2.2.0"
+                "source": "https://github.com/Islandora/jsonld/tree/3.0.1"
             },
-            "time": "2023-07-18T16:06:07+00:00"
+            "time": "2023-07-04T13:25:18+00:00"
         },
         {
             "name": "islandora/views_nested_details",
