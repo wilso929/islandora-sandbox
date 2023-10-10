@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea4589273e8aa80def1a2cf4419df5bd",
+    "content-hash": "dbba8be8131dd3953313a4e12ac62acd",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -1480,16 +1480,16 @@
         },
         {
             "name": "digitalutsc/private_files_adapter",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/private_files_adapter.git",
-                "reference": "4ac38698d4a6f1e1a36bc6413b6c3ff16f4ff520"
+                "reference": "8e113b6339b2a719d450addf2fb4c905b0b60aef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitalutsc/private_files_adapter/zipball/4ac38698d4a6f1e1a36bc6413b6c3ff16f4ff520",
-                "reference": "4ac38698d4a6f1e1a36bc6413b6c3ff16f4ff520",
+                "url": "https://api.github.com/repos/digitalutsc/private_files_adapter/zipball/8e113b6339b2a719d450addf2fb4c905b0b60aef",
+                "reference": "8e113b6339b2a719d450addf2fb4c905b0b60aef",
                 "shasum": ""
             },
             "require": {
@@ -1521,7 +1521,7 @@
                 "issues": "https://www.drupal.org/project/issues/private_files_adapter",
                 "source": "http://cgit.drupalcode.org/private_files_adapter"
             },
-            "time": "2023-07-06T03:47:03+00:00"
+            "time": "2023-10-10T22:48:42+00:00"
         },
         {
             "name": "doctrine/annotations",
