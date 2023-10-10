@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f67c8187d3ee8bb941f3e9850050ad87",
+    "content-hash": "0dc1e4678afb07a2b38fdd902b6d9322",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -8168,15 +8168,15 @@
         },
         {
             "name": "islandora_lite/islandora_breadcrumbs",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_breadcrumbs.git",
-                "reference": "1.0.0-beta3"
+                "reference": "1.0.0-beta4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/digitalutsc/islandora_breadcrumbs/archive/refs/tags/1.0.0-beta3.zip"
+                "url": "https://github.com/digitalutsc/islandora_breadcrumbs/archive/refs/tags/1.0.0-beta4.zip"
             },
             "type": "drupal-module"
         },
