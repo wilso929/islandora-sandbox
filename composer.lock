@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbba8be8131dd3953313a4e12ac62acd",
+    "content-hash": "5588c30419d7c2e90771a6f8f32cce87",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -1436,7 +1436,7 @@
         },
         {
             "name": "digitalutsc/islandora_group",
-            "version": "1.0.0-beta3",
+            "version": "2.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_group.git",
@@ -4245,17 +4245,17 @@
         },
         {
             "name": "drupal/flexible_permissions",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/flexible_permissions.git",
-                "reference": "1.0.0"
+                "reference": "1.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/flexible_permissions-1.0.0.zip",
-                "reference": "1.0.0",
-                "shasum": "a48740d2edcb04bb0d750c5d5c41ce8fb9acc332"
+                "url": "https://ftp.drupal.org/files/projects/flexible_permissions-1.1.0.zip",
+                "reference": "1.1.0",
+                "shasum": "cfda615388131e96a5cf3fce1f24b1c220f91fce"
             },
             "require": {
                 "drupal/core": "^9.5 || ^10",
@@ -4264,8 +4264,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0",
-                    "datestamp": "1679575763",
+                    "version": "1.1.0",
+                    "datestamp": "1697027409",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
