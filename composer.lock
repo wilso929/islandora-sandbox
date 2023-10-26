@@ -8112,11 +8112,11 @@
         },
         {
             "name": "islandora/views_nested_details",
-            "version": "1.0.0-beta1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Labs/views_nested_details",
-                "reference": "1.0.0-beta1"
+                "reference": "1.1.0"
             },
             "dist": {
                 "type": "zip",
