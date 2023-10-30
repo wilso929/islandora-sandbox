@@ -191,15 +191,15 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/islandora_site_name",
-              "version": "1.0.0-beta1",
+              "version": "1.0.0-beta2",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/islandora_site_name.git",
                 "type": "git",
-                "reference":"1.0.0-beta1"
+                "reference":"1.0.0-beta2"
               },
               "dist": {
-                "url": "https://github.com/digitalutsc/islandora_site_name/archive/refs/tags/1.0.0-beta1.zip",
+                "url": "https://github.com/digitalutsc/islandora_site_name/archive/refs/tags/1.0.0-beta2.zip",
                 "type": "zip"
               }
             }
