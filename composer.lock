@@ -2321,17 +2321,17 @@
         },
         {
             "name": "drupal/advancedqueue_runner",
-            "version": "2.0.0-alpha5",
+            "version": "2.0.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/advancedqueue_runner.git",
-                "reference": "2.0.0-alpha5"
+                "reference": "2.0.0-alpha6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/advancedqueue_runner-2.0.0-alpha5.zip",
-                "reference": "2.0.0-alpha5",
-                "shasum": "726235d25daa8395a70163c3c0d45486ec60fdef"
+                "url": "https://ftp.drupal.org/files/projects/advancedqueue_runner-2.0.0-alpha6.zip",
+                "reference": "2.0.0-alpha6",
+                "shasum": "3d1aa13d00c409de02e983610000968f8773a0ef"
             },
             "require": {
                 "drupal/advancedqueue": "^1.0@RC",
@@ -2348,8 +2348,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-alpha5",
-                    "datestamp": "1693399664",
+                    "version": "2.0.0-alpha6",
+                    "datestamp": "1698675059",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
