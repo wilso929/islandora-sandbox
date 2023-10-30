@@ -1480,16 +1480,16 @@
         },
         {
             "name": "digitalutsc/private_files_adapter",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/private_files_adapter.git",
-                "reference": "8e113b6339b2a719d450addf2fb4c905b0b60aef"
+                "reference": "35e1cd0b75f9ce2ce7b5f6100af09176142b23cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digitalutsc/private_files_adapter/zipball/8e113b6339b2a719d450addf2fb4c905b0b60aef",
-                "reference": "8e113b6339b2a719d450addf2fb4c905b0b60aef",
+                "url": "https://api.github.com/repos/digitalutsc/private_files_adapter/zipball/35e1cd0b75f9ce2ce7b5f6100af09176142b23cf",
+                "reference": "35e1cd0b75f9ce2ce7b5f6100af09176142b23cf",
                 "shasum": ""
             },
             "require": {
@@ -1521,7 +1521,7 @@
                 "issues": "https://www.drupal.org/project/issues/private_files_adapter",
                 "source": "http://cgit.drupalcode.org/private_files_adapter"
             },
-            "time": "2023-10-10T22:48:42+00:00"
+            "time": "2023-10-30T15:29:43+00:00"
         },
         {
             "name": "doctrine/annotations",
