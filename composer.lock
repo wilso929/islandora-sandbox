@@ -8196,15 +8196,15 @@
         },
         {
             "name": "islandora_lite/islandora_object_thumbnail",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digitalutsc/islandora_object_thumbnail.git",
-                "reference": "1.0.0-beta1"
+                "reference": "1.0.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/digitalutsc/islandora_object_thumbnail/archive/refs/tags/1.0.0-beta1.zip"
+                "url": "https://github.com/digitalutsc/islandora_object_thumbnail/archive/refs/tags/1.0.0-beta2.zip"
             },
             "type": "drupal-module"
         },
