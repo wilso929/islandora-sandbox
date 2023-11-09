@@ -235,7 +235,7 @@
         "drupal/advancedqueue_runner": "^2.0@alpha",
         "drupal/archive_list_contents": "^1.0@beta",
         "drupal/asset_injector": "^2.19",
-        "drupal/better_social_sharing_buttons": "^4.0",
+        "drupal/better_social_sharing_buttons": "4.0.7",
         "drupal/citation_select": "^1.0@beta",
         "drupal/context": "^5@RC",
         "drupal/devel": "^5.0",
